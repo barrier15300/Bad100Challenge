@@ -9,33 +9,27 @@ namespace Bad100Challenge
 			InitializeComponent();
 		}
 
-		bool initialCountFixed = false;
+		bool isFixed = false;
 		bool ChallengeCompleted = false;
 		string RollStartButtonText = "Roll Start";
+		List<string> Songs = new();
+		Queue<int> DuplicateIndexQueue = new();
 
 		Display display = new();
 
-		int GetRandomNum(int max) {
-			int complexcount = 1;
-			byte[] bytes = RandomNumberGenerator.GetBytes(complexcount * 4);
+		static int GetRandomNum(int max) {
 			int ret = 0;
-			for (int i = 0; i < complexcount; i += 4) {
-				ret ^= bytes[i + 0] << 0;
-				ret ^= bytes[i + 1] << 0;
-				ret ^= bytes[i + 2] << 0;
-				ret ^= bytes[i + 3] << 0;
-			}
-			return (ret % max);
+			int shift = (int)Math.Log2(max) + 1;
+			do {
+				byte[] bytes = RandomNumberGenerator.GetBytes(4);
+				ret = BitConverter.ToInt32(bytes) & ((1 << shift) - 1);
+			} while (ret >= max);
+			return ret;
 		}
 
 		bool ConditionCheck() {
-			if (!initialCountFixed) {
+			if (!isFixed) {
 				RollStartButton.Text = RollStartButtonText + "\nplease click \"Fix Button\"";
-				return false;
-			}
-
-			if (SongListInput.Lines.Length == 0) {
-				RollStartButton.Text = RollStartButtonText + "\nplease write \"SongList\"";
 				return false;
 			}
 
@@ -47,15 +41,21 @@ namespace Bad100Challenge
 			return true;
 		}
 
-		private void InitialCountFixed(object sender, EventArgs e) {
-			InitialCountInput.Enabled = false;
-			FixInitialCountbutton.Enabled = false;
-			initialCountFixed = true;
+		private void FixButtonEnter(object sender, EventArgs e) {
+			FixRequiredBox.Enabled = false;
+
+			isFixed = true;
+
+			if (SongIgnoreCountInput.Value >= Songs.Count) {
+				SongIgnoreCountInput.Value = (int)(Songs.Count * 0.8);
+			}
 
 			display.Show();
 			display.BadCountLessZero = (sender, e) => { ChallengeCompleted = true; };
 			display.FormClosed += (sender, e) => { Close(); };
 			display.Init((int)InitialCountInput.Value);
+
+			this.Activate();
 		}
 
 		private void FocusInRollStartButton(object sender, EventArgs e) {
@@ -67,19 +67,31 @@ namespace Bad100Challenge
 		}
 
 		private void InputSongList(object sender, EventArgs e) {
-			SongCountDisplay.Text = SongListInput.Lines.Length.ToString();
+			Songs = SongListInput.Lines.ToList();
+			SongCountDisplay.Text = Songs.Count.ToString();
+			if (Songs.Count > 0) {
+				FixButton.Enabled = true;
+			}
+			else {
+				FixButton.Enabled = false;
+			}
+		}
+
+		private void CalculateButton_Click(object sender, EventArgs e) {
+			display.Calculate((int)BadCountInput.Value);
+			BadCountInput.Value = 0;
+			if (Songs.Count == 1) {
+				ChallengeCompleted = true;
+			}
+			CalculateBox.Enabled = false;
+			RollStartButton.Enabled = true;
+		}
+
+		private void MarathonModeFlag_CheckedChanged(object sender, EventArgs e) {
+			SongIgnoreCountInput.Enabled = !MarathonModeFlag.Checked;
 		}
 
 		private void RollStartButton_Click(object sender, EventArgs e) {
-			if (!ConditionCheck()) {
-				return;
-			}
-
-			if (display.GetTitleLength() != 0) {
-				display.Calculate((int)BadCountInput.Value);
-				BadCountInput.Value = 0;
-			}
-
 			if (!ConditionCheck()) {
 				return;
 			}
@@ -91,8 +103,17 @@ namespace Bad100Challenge
 
 			this.Update();
 
-			int idx = GetRandomNum(SongListInput.Lines.Length);
+			int idx = 0;
 
+			do {
+				idx = GetRandomNum(Songs.Count);
+			} while (DuplicateIndexQueue.Any((i) => { return idx == i; }));
+			
+			if (DuplicateIndexQueue.Count >= SongIgnoreCountInput.Value) {
+				DuplicateIndexQueue.Dequeue();
+			}
+			DuplicateIndexQueue.Enqueue(idx);
+			
 			Stopwatch timer = new();
 			timer.Start();
 
@@ -102,8 +123,8 @@ namespace Bad100Challenge
 			display.Focus();
 
 			while (countupdate[0] < updatecount) {
-				int rn = GetRandomNum(SongListInput.Lines.Length);
-				display.SetTitle(SongListInput.Lines[rn]);
+				int rn = GetRandomNum(Songs.Count);
+				display.SetTitle(Songs[rn]);
 				display.Update();
 				this.Update();
 				while (countupdate[0] == countupdate[1]) { countupdate[0] = (int)(timer.Elapsed.TotalMilliseconds / (double)UpdateTimeInput.Value); }
@@ -115,8 +136,14 @@ namespace Bad100Challenge
 			BadCountInput.Enabled = true;
 			SongListInput.ReadOnly = false;
 
-			display.SetTitle(SongListInput.Lines[idx]);
+			display.SetTitle(Songs[idx]);
+			if (MarathonModeFlag.Checked) {
+				Songs.RemoveAt(idx);
+			}
 			display.Update();
+
+			RollStartButton.Enabled = false;
+			CalculateBox.Enabled = true;
 		}
 
 		private void SongListInput_DragDrop(object sender, DragEventArgs e) {
@@ -157,5 +184,6 @@ namespace Bad100Challenge
 			}
 
 		}
+
 	}
 }
