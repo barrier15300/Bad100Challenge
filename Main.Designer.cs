@@ -41,10 +41,12 @@
 			UpdateTimeInput = new NumericUpDown();
 			MarathonModeFlag = new CheckBox();
 			FixRequiredBox = new GroupBox();
+			ImportButton = new Button();
 			CalculateButton = new Button();
 			CalculateBox = new GroupBox();
 			SongIgnoreCountlabel = new Label();
 			SongIgnoreCountInput = new NumericUpDown();
+			ResetButton = new Button();
 			((System.ComponentModel.ISupportInitialize)BadCountInput).BeginInit();
 			((System.ComponentModel.ISupportInitialize)InitialCountInput).BeginInit();
 			((System.ComponentModel.ISupportInitialize)UpdateTimeInput).BeginInit();
@@ -194,6 +196,7 @@
 			// 
 			// FixRequiredBox
 			// 
+			FixRequiredBox.Controls.Add(ImportButton);
 			FixRequiredBox.Controls.Add(MarathonModeFlag);
 			FixRequiredBox.Controls.Add(InitialCountInput);
 			FixRequiredBox.Controls.Add(InitialCountlabel);
@@ -208,6 +211,16 @@
 			FixRequiredBox.TabIndex = 13;
 			FixRequiredBox.TabStop = false;
 			FixRequiredBox.Text = "FixReqired";
+			// 
+			// ImportButton
+			// 
+			ImportButton.Location = new Point(98, 13);
+			ImportButton.Name = "ImportButton";
+			ImportButton.Size = new Size(75, 23);
+			ImportButton.TabIndex = 13;
+			ImportButton.Text = "Import";
+			ImportButton.UseVisualStyleBackColor = true;
+			ImportButton.Click += ImportButton_Click;
 			// 
 			// CalculateButton
 			// 
@@ -256,10 +269,22 @@
 			SongIgnoreCountInput.Tag = "";
 			SongIgnoreCountInput.Value = new decimal(new int[] { 30, 0, 0, 0 });
 			// 
+			// ResetButton
+			// 
+			ResetButton.Location = new Point(353, 493);
+			ResetButton.Margin = new Padding(5);
+			ResetButton.Name = "ResetButton";
+			ResetButton.Size = new Size(174, 45);
+			ResetButton.TabIndex = 18;
+			ResetButton.Text = "Reset";
+			ResetButton.UseVisualStyleBackColor = true;
+			ResetButton.Click += ResetButton_Click;
+			// 
 			// Main
 			// 
 			AutoScaleMode = AutoScaleMode.None;
 			ClientSize = new Size(537, 552);
+			Controls.Add(ResetButton);
 			Controls.Add(SongIgnoreCountlabel);
 			Controls.Add(SongIgnoreCountInput);
 			Controls.Add(CalculateBox);
@@ -270,7 +295,6 @@
 			DoubleBuffered = true;
 			FormBorderStyle = FormBorderStyle.FixedSingle;
 			MaximizeBox = false;
-			MinimizeBox = false;
 			Name = "Main";
 			Text = "Main";
 			((System.ComponentModel.ISupportInitialize)BadCountInput).EndInit();
@@ -305,5 +329,7 @@
 		private GroupBox CalculateBox;
 		private Label SongIgnoreCountlabel;
 		private NumericUpDown SongIgnoreCountInput;
+		private Button ImportButton;
+		private Button ResetButton;
 	}
 }

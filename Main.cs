@@ -1,13 +1,22 @@
 ﻿using System.Diagnostics;
+using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
 namespace Bad100Challenge
 {
 	public partial class Main : Form {
+#if RELEASE
 		public Main() {
 			InitializeComponent();
 		}
+#elif DEBUG
+
+		public Main() {
+			InitializeComponent();
+
+		}
+#endif
 
 		bool isFixed = false;
 		bool ChallengeCompleted = false;
@@ -25,6 +34,12 @@ namespace Bad100Challenge
 				ret = BitConverter.ToInt32(bytes) & ((1 << shift) - 1);
 			} while (ret >= max);
 			return ret;
+		}
+
+		private void ResetButton_Click(object sender, EventArgs e) {
+			display.Hide();
+			isFixed = true;
+			FixRequiredBox.Enabled = true;
 		}
 
 		bool ConditionCheck() {
@@ -51,7 +66,7 @@ namespace Bad100Challenge
 			}
 
 			display.Show();
-			display.BadCountLessZero = (sender, e) => { ChallengeCompleted = true; };
+			display.BadCountLessZero = (sender, e) => { ChallengeCompleted = true; ResetButton.Enabled = ChallengeCompleted; };
 			display.FormClosed += (sender, e) => { Close(); };
 			display.Init((int)InitialCountInput.Value);
 
@@ -108,12 +123,12 @@ namespace Bad100Challenge
 			do {
 				idx = GetRandomNum(Songs.Count);
 			} while (DuplicateIndexQueue.Any((i) => { return idx == i; }));
-			
+
 			if (DuplicateIndexQueue.Count >= SongIgnoreCountInput.Value) {
 				DuplicateIndexQueue.Dequeue();
 			}
 			DuplicateIndexQueue.Enqueue(idx);
-			
+
 			Stopwatch timer = new();
 			timer.Start();
 
@@ -146,17 +161,10 @@ namespace Bad100Challenge
 			CalculateBox.Enabled = true;
 		}
 
-		private void SongListInput_DragDrop(object sender, DragEventArgs e) {
-
-			if (e.Data is null) { return; }
-
-			string[]? path = (string[]?)e.Data.GetData(DataFormats.FileDrop, false);
-
-			if (path is null) { return; }
-
+		void SongListInput_Update(string[] pathes) {
 			List<string> ret = new();
 
-			foreach (var p in path) {
+			foreach (var p in pathes) {
 				List<string> temp = new();
 				using (StreamReader sr = new(p, Encoding.UTF8)) {
 					while (!sr.EndOfStream) {
@@ -174,6 +182,17 @@ namespace Bad100Challenge
 			SongListInput.Focus();
 		}
 
+		private void SongListInput_DragDrop(object sender, DragEventArgs e) {
+
+			if (e.Data is null) { return; }
+
+			string[]? path = (string[]?)e.Data.GetData(DataFormats.FileDrop, false);
+
+			if (path is null) { return; }
+
+			SongListInput_Update(path);
+		}
+
 		private void SongListInput_DragEnter(object sender, DragEventArgs e) {
 
 			if (e.Data.GetDataPresent(DataFormats.FileDrop)) {
@@ -183,6 +202,24 @@ namespace Bad100Challenge
 				e.Effect = DragDropEffects.None;
 			}
 
+		}
+
+		private void ImportButton_Click(object sender, EventArgs e) {
+
+			OpenFileDialog dialog = new() {
+				Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*",
+				FilterIndex = 1,
+				RestoreDirectory = true,
+				CheckFileExists = true,
+				CheckPathExists = true,
+				Multiselect = true,
+				FileName = Environment.CurrentDirectory,
+			};
+			DialogResult result = dialog.ShowDialog();
+
+			if (result == DialogResult.OK) {
+				SongListInput_Update(dialog.FileNames);
+			}
 		}
 
 	}

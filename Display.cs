@@ -18,18 +18,19 @@ namespace Bad100Challenge
 
 		public EventHandler BadCountLessZero;
 
+		Result result = new();
+
 		int BadCount = 0;
 		int ClearCount = 0;
 		int FullComboCount = 0;
 		string LeftText = "left";
 		string ClearText = "CL";
 		string FullComboText = "FC";
-		string AllPerfectText = "AP";
 
 		public void Init(int initialcount) {
 			BadCount = initialcount;
-			SetValue(BadCount, 0, 0);
 			SetTitle("");
+			SetValue(BadCount, 0, 0);
 		}
 
 		public void Calculate(int badcount) {
@@ -40,16 +41,23 @@ namespace Bad100Challenge
 			}
 
 			if (BadCount <= 0) {
-				BadCountLessZero(this, new());
+				BadCountLessZero?.Invoke(this, EventArgs.Empty);
+				SetValue(BadCount, ClearCount, FullComboCount);
+				this.Activate();
+				result.Show();
+				result.FormClosed += (sender, e) => { this.Close(); };
+				result.Activate();
 			}
 			else {
 				++ClearCount;
+				SetValue(BadCount, ClearCount, FullComboCount);
 			}
-
-			SetValue(BadCount, ClearCount, FullComboCount);
 		}
 
+
 		void SetValue(int left, int cl, int fc) {
+
+			result.AddResult(SongTitlelabel.Text, left, fc);
 
 			BadCountlabel.Text = left.ToString() + " " + LeftText;
 			ClearCountlabel.Text = cl.ToString() + " " + ClearText;
@@ -61,10 +69,10 @@ namespace Bad100Challenge
 			SongTitlelabel.Text = title;
 		}
 
-		public int GetTitleLength() {
-			return SongTitlelabel.Text.Length;
+		private void Display_VisibleChanged(object sender, EventArgs e) {
+			if (!this.Visible) {
+				result.Hide();
+			}
 		}
-
-		
 	}
 }

@@ -86,9 +86,9 @@
 			FormBorderStyle = FormBorderStyle.FixedSingle;
 			Margin = new Padding(4, 3, 4, 3);
 			MaximizeBox = false;
-			MinimizeBox = false;
 			Name = "Display";
 			Text = "Display";
+			VisibleChanged += Display_VisibleChanged;
 			ResumeLayout(false);
 			PerformLayout();
 		}
