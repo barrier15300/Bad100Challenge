@@ -105,20 +105,20 @@ namespace Bad100Challenge
 
 			if (node["difficulty_def"] is not JsonNode difficulty_def) { throw new Exception("difficulty_def not found."); }
 			
-			DifficultyDatas = [.. difficulty_def.AsArray().Select(node => {
-				var data = new DifficultyData();
-				data.Parse(node);
-				return data;
-			})];
+				DifficultyDatas = [.. difficulty_def.AsArray().Select(node => {
+					var data = new DifficultyData();
+					data.Parse(node);
+					return data;
+				})];
 
 			if (node["genre_def"] is not JsonNode genre_def) { throw new Exception("genre_def not found."); }
 			
-			GenreDatas = [.. genre_def.AsArray().Select(node => {
-				var data = new GenreData();
-				data.Parse(node);
-				return data;
-			})];
-			
+				GenreDatas = [.. genre_def.AsArray().Select(node => {
+					var data = new GenreData();
+					data.Parse(node);
+					return data;
+				})];
+
 			JsonNode?[] musics = [node["music_pass"] , node["pre_installed_list"]];
 
 			Array.ForEach(musics, music => {
@@ -128,14 +128,14 @@ namespace Bad100Challenge
 					if (Array.Find(GenreDatas, x => x.ID == item?["genre"]?.GetValue<int>()) is not GenreData data) { continue; }
 
 					if (item?["music_list"] is not JsonNode list) { continue; }
-					
+
 					data.songs = [.. data.songs.Concat([.. list.AsArray().Select(node => {
-						var song = new SongData(data);
-						song.Parse(node, DifficultyDatas);
-						return song;
+							var song = new SongData(data);
+							song.Parse(node, DifficultyDatas);
+							return song;
 					})])];
 					
-				}
+			}
 				
 			});
 		}
