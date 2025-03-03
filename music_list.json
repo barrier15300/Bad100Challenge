@@ -1,0 +1,6014 @@
+﻿{
+	"update_info": {
+		"date": "2025/03/03"
+	},
+	"difficulty_def": [
+		{
+			"value": 1,
+			"name": "かんたん"
+		},
+		{
+			"value": 2,
+			"name": "ふつう"
+		},
+		{
+			"value": 3,
+			"name": "むずかしい"
+		},
+		{
+			"value": 4,
+			"name": "おに"
+		},
+		{
+			"value": 5,
+			"name": "おに(裏)"
+		}
+	],
+	"special_category_def": [
+		{
+			"value": 1,
+			"name": "新曲"
+		},
+		{
+			"value": 2,
+			"name": "WADIVE RECORD"
+		},
+		{
+			"value": 3,
+			"name": "ラブソング特集"
+		},
+		{
+			"value": 4,
+			"name": "ビギナー"
+		},
+		{
+			"value": 5,
+			"name": "Pick Up !"
+		},
+		{
+			"value": 6,
+			"name": "アップテンポ"
+		},
+		{
+			"value": 7,
+			"name": "超速アップテンポ"
+		},
+		{
+			"value": 8,
+			"name": "神速アップテンポ"
+		},
+		{
+			"value": 9,
+			"name": "達人"
+		}
+	],
+	"genre_def": [
+		{
+			"value": 1,
+			"name": "ナムコオリジナル"
+		},
+		{
+			"value": 2,
+			"name": "ポップス"
+		},
+		{
+			"value": 3,
+			"name": "アニメ"
+		},
+		{
+			"value": 4,
+			"name": "ボーカロイド™曲"
+		},
+		{
+			"value": 5,
+			"name": "バラエティ"
+		},
+		{
+			"value": 6,
+			"name": "クラシック"
+		},
+		{
+			"value": 7,
+			"name": "ゲームミュージック"
+		}
+	],
+	"flags_def": [
+		{
+			"bit": 0,
+			"name": "譜面分岐あり かんたん"
+		},
+		{
+			"bit": 1,
+			"name": "譜面分岐あり ふつう"
+		},
+		{
+			"bit": 2,
+			"name": "譜面分岐あり むずかしい"
+		},
+		{
+			"bit": 3,
+			"name": "譜面分岐あり おに"
+		},
+		{
+			"bit": 4,
+			"name": "譜面分岐あり おに(裏)"
+		},
+		{
+			"bit": 5,
+			"name": "ロングバージョン曲"
+		},
+		{
+			"bit": 6,
+			"name": "オンラインプレイ不可"
+		},
+		{
+			"bit": 7,
+			"name": "精度曲"
+		},
+		{
+			"bit": 8,
+			"name": "完全精度曲"
+		},
+		{
+			"bit": 9,
+			"name": "カバー曲"
+		}
+	],
+	"music_pass": [
+		{
+			"genre": 1,
+			"music_list": [
+				{
+					"title": "RHYTHM CONNECT",
+					"subtitle": "TRIANGLE 「太鼓の達人 RHYTHM CONNECT」テーマソング",
+					"difficulty": "0x86420",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "エール・エクス・マキナ！",
+					"subtitle": "まきな prod. 坪井リヒト(BNSI)",
+					"difficulty": "0x96530",
+					"flags": "0",
+					"special_category": [8]
+				},
+				{
+					"title": "つながれ！ひろがれ！打ち上がれ！",
+					"subtitle": "「太鼓の達人 セッションでドドンがドン！」テーマソング",
+					"difficulty": "0x97540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "世界はいつでもミステリー",
+					"subtitle": "「太鼓の達人 ドコドン！ミステリーアドベンチャー」テーマソング",
+					"difficulty": "0x75440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "希望へのメロディー",
+					"subtitle": "「太鼓の達人 Vバージョン」テーマソング",
+					"difficulty": "0x76330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "もりもり☆特盛リズム♪",
+					"subtitle": "「太鼓の達人 特盛り！」テーマソング",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "超時空アドベンチャー",
+					"subtitle": "「太鼓の達人 どんとかつの時空大冒険」テーマソング",
+					"difficulty": "0x65540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "どきどき☆どんちゃん騒ぎ",
+					"subtitle": "「太鼓の達人Wii 超ごうか版」テーマソング",
+					"difficulty": "0x76430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "キミと響くハーモニー",
+					"subtitle": "「太鼓の達人 ちびドラゴンと不思議なオーブ」テーマソング",
+					"difficulty": "0x865430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "大多羅捌伍伍壱",
+					"subtitle": "",
+					"difficulty": "0x98440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ヒカリノカナタヘ",
+					"subtitle": "",
+					"difficulty": "0x98540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ヒカリノカナタヘ -Long Ver.-",
+					"subtitle": "",
+					"difficulty": "0x98550",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ららら☆ハッピネス",
+					"subtitle": "「太鼓の達人Wii ドドーンと2代目！」テーマソング",
+					"difficulty": "0x76540",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "七色ハーモニー",
+					"subtitle": "「めっちゃ！太鼓の達人DS 7つの島の大冒険」テーマソング",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "伝説の祭り",
+					"subtitle": "",
+					"difficulty": "0x76430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "くもまでとどけ！",
+					"subtitle": "「太鼓の達人 ぽ～たぶる2」テーマソング",
+					"difficulty": "0x87530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "響け！太鼓の達人",
+					"subtitle": "水木一郎・堀江美都子・影山ヒロノブ「太鼓の達人 とびっきり！アニメスペシャル」テーマソング",
+					"difficulty": "0x86440",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "響け！太鼓の達人 -Long Ver.-",
+					"subtitle": "水木一郎・堀江美都子・影山ヒロノブ「太鼓の達人 とびっきり！アニメスペシャル」テーマソング",
+					"difficulty": "0x76550",
+					"flags": "0x20",
+					"special_category": []
+				},
+				{
+					"title": "どんちゃん世界旅行",
+					"subtitle": "",
+					"difficulty": "0x76440",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "おはよう！太鼓サマー",
+					"subtitle": "「太鼓の達人 あつまれ！祭りだ!!四代目」",
+					"difficulty": "0x65440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "サタデー太鼓フィーバー",
+					"subtitle": "",
+					"difficulty": "0x878640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "太鼓ラブ！",
+					"subtitle": "",
+					"difficulty": "0x54230",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "太鼓の達人・愛のテーマ",
+					"subtitle": "",
+					"difficulty": "0x78440",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "虹色・夢色・太鼓色",
+					"subtitle": "",
+					"difficulty": "0x864530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "どんちゃん音頭",
+					"subtitle": "",
+					"difficulty": "0x76320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ハロー！どんちゃん",
+					"subtitle": "",
+					"difficulty": "0x66530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ココドコ？多分ドッカ島！",
+					"subtitle": "FOCUS ON (にじさんじ)×太鼓の達人",
+					"difficulty": "0xA87530",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "いっそこのままで",
+					"subtitle": "山神カルタ / FOCUS ON (にじさんじ)×太鼓の達人",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "濃紅",
+					"subtitle": "レヴィ・エリファ / FOCUS ON (にじさんじ)×太鼓の達人",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "ヘイラ",
+					"subtitle": "ましろ爻 / FOCUS ON (にじさんじ)×太鼓の達人",
+					"difficulty": "0xA97640",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "エンジェル ドリーム",
+					"subtitle": "フレン・E・ルスタリオ / FOCUS ON (にじさんじ)×太鼓の達人",
+					"difficulty": "0x987630",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "CYBERgenicALICE",
+					"subtitle": "先斗寧 / FOCUS ON (にじさんじ)×太鼓の達人",
+					"difficulty": "0x96540",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "Fly away",
+					"subtitle": "伏見ガク / FOCUS ON (にじさんじ)×太鼓の達人",
+					"difficulty": "0x75540",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "ボクハシンセ",
+					"subtitle": "伏見ガク / FOCUS ON (にじさんじ)×太鼓の達人",
+					"difficulty": "0x75540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "マリオネットピュア",
+					"subtitle": "リゼ・ヘルエスタ / FOCUS ON (にじさんじ)×太鼓の達人",
+					"difficulty": "0x97540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Phoenix",
+					"subtitle": "レオス・ヴィンセント / FOCUS ON (にじさんじ)×太鼓の達人",
+					"difficulty": "0x76540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ファミレスウォーズ",
+					"subtitle": "本間ひまわり / FOCUS ON (にじさんじ)×太鼓の達人",
+					"difficulty": "0x85420",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "ステッピン・オン・ジ・アクセル",
+					"subtitle": "valknee×Sho Okada(BNSI)",
+					"difficulty": "0xA7540",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "SUDDEN GUST OC",
+					"subtitle": "Sampling Masters MEGA",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "バブル・リップ・レイヴ・マシン",
+					"subtitle": "Sho Okada(BNSI) feat. ボンジュール鈴木",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "ミンナノカキゴオリ",
+					"subtitle": "ボンジュール鈴木 feat. 塚越雄一朗(NanosizeMir) & 祇羽",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Beat Again",
+					"subtitle": "Kawagen Kollagen(BNSI) with yuzuki",
+					"difficulty": "0xA97540",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "Agent Hustle & Dr. Hassle",
+					"subtitle": "Cory Tarrow(BNSI)",
+					"difficulty": "0x9A6540",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "TAIKO-TONGUE-TWISTER",
+					"subtitle": "Cory Tarrow(BNSI) feat. M.Polak, Avigail D., L.Munoz and Bryan D.",
+					"difficulty": "0x87650",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "全力Dive",
+					"subtitle": "Carpainter feat. ななひら / WADIVE RECORD",
+					"difficulty": "0x75530",
+					"flags": "0",
+					"special_category": [2]
+				},
+				{
+					"title": "who are you? who are you?",
+					"subtitle": "堀江昌太 feat. 生田鷹司 / WADIVE RECORD",
+					"difficulty": "0x975420",
+					"flags": "0",
+					"special_category": [2, 6]
+				},
+				{
+					"title": "空想打破",
+					"subtitle": "ノイ feat. 萌 / WADIVE RECORD",
+					"difficulty": "0x84430",
+					"flags": "0",
+					"special_category": [2]
+				},
+				{
+					"title": "スキに理由はいらないじゃん！",
+					"subtitle": "オミコシスターズ feat. Ponchi♪ / WADIVE RECORD",
+					"difficulty": "0x86630",
+					"flags": "0",
+					"special_category": [2]
+				},
+				{
+					"title": "平等院鳳凰ドン vs 鳥獣戯カッ",
+					"subtitle": "太鼓 de タイムトラベル平安 / コバヤシユウヤ(IOSYS) feat. miko",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "一世風靡",
+					"subtitle": "太鼓 de タイムトラベル江戸 / 西込加久見",
+					"difficulty": "0x96540",
+					"flags": "0x8",
+					"special_category": [7]
+				},
+				{
+					"title": "大冒険タツドン",
+					"subtitle": "太鼓 de タイムトラベル60's / 田島勝郎(BNSI) feat. シックスティーズ・クワイヤーズ",
+					"difficulty": "0x86420",
+					"flags": "0",
+					"special_category": [8]
+				},
+				{
+					"title": "恋はドント・ダウト",
+					"subtitle": "太鼓 de タイムトラベル70's / Kawagen Kollagen with yuzuki",
+					"difficulty": "0x86540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Donder Time",
+					"subtitle": "太鼓 de タイムトラベル80's / おおがみまさこ feat. 団地ノ宮琴子",
+					"difficulty": "0x86640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Hold me tight",
+					"subtitle": "太鼓 de タイムトラベル90's / Tatsh&musica with パークマンサー",
+					"difficulty": "0x86640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "パラレルロリポップ",
+					"subtitle": "太鼓 de タイムトラベル10's / Sho Okada(BNSI)",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "轟け！太鼓の達人",
+					"subtitle": "太鼓 de タイムトラベル20's / steμ×マスブチ×ササオカ feat. 谷本貴義&たかはし智秋",
+					"difficulty": "0x87520",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "六本の薔薇と采の歌",
+					"subtitle": "薔薇☆Dice(鷹嶺ルイ・不知火フレア・白銀ノエル・宝鐘マリン・桃鈴ねね・風真いろは)",
+					"difficulty": "0xA63220",
+					"flags": "0x10",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "めためた☆ゆにば～すっ！",
+					"subtitle": "kyo(BNSI) × Mitsu(TRYTONELABO) feat. 本木咲黒",
+					"difficulty": "0xA86540",
+					"flags": "0x18",
+					"special_category": [7]
+				},
+				{
+					"title": "神鬼争乱",
+					"subtitle": "翡翠&祇羽",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "女神な世界 Ⅱ",
+					"subtitle": "翡翠&祇羽 feat. 葉月ゆら",
+					"difficulty": "0x87640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "女神な世界 Ⅲ",
+					"subtitle": "翡翠&祇羽 feat. 深雪ゆあ×湖山えりか",
+					"difficulty": "0x84330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "リトルホワイトウィッチ",
+					"subtitle": "塚越雄一朗(NanosizeMir) & 祇羽 feat. 愛原圭織",
+					"difficulty": "0x96540",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "ON SAY GO SAY",
+					"subtitle": "ショウ君",
+					"difficulty": "0xA87640",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "トンガチン",
+					"subtitle": "Kimitaka Matsumae",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "喫茶レイン",
+					"subtitle": "",
+					"difficulty": "0x865430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Amber Light",
+					"subtitle": "中鶴潤一(BNSI)",
+					"difficulty": "0x98750",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "燃えよサファイア",
+					"subtitle": "庭師",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "魑魅魍魎",
+					"subtitle": "Laur",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "増悪と醜悪の花束",
+					"subtitle": "t+pazolite",
+					"difficulty": "0xAA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "鼓舞曲「閻魔」",
+					"subtitle": "山本真央樹",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "Destination 2F29",
+					"subtitle": "井荷麻奈実",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "Space-Time Emergency",
+					"subtitle": "GARIN",
+					"difficulty": "0x97530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "アンチェイン・ガール！",
+					"subtitle": "みーに",
+					"difficulty": "0x86540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Illusion Flare",
+					"subtitle": "ミハイル",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "LΔchesis",
+					"subtitle": "7mai",
+					"difficulty": "0xA97640",
+					"flags": "0",
+					"special_category": [8]
+				},
+				{
+					"title": "電脳幻夜の星言詠",
+					"subtitle": "yuichi NAGAO",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "ロケットモード",
+					"subtitle": "アタリメ feat. 力石好乃",
+					"difficulty": "0x86540",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "傾奇者、罷り通る！",
+					"subtitle": "かぼちゃ",
+					"difficulty": "0x86420",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "あまてらすJK",
+					"subtitle": "Takahiro Akuta feat. さちこ",
+					"difficulty": "0x85440",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "赤と白薔薇の魔女",
+					"subtitle": "Dokuwaki",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "Taiko Session",
+					"subtitle": "～Live Version～",
+					"difficulty": "0x976430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "142 トキワタリドリ",
+					"subtitle": "",
+					"difficulty": "0x87650",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "241ディープラーニング",
+					"subtitle": "",
+					"difficulty": "0x998740",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Argent Memories",
+					"subtitle": "",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "BE THE ACE",
+					"subtitle": "",
+					"difficulty": "0x966540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "void setup",
+					"subtitle": "",
+					"difficulty": "0x86540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "あたしイカサマ恋はイカサマ",
+					"subtitle": "",
+					"difficulty": "0x76540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "いとしのミルさま",
+					"subtitle": "",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "クレイジービューティー",
+					"subtitle": "",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [8]
+				},
+				{
+					"title": "バブリィ☆クイーン",
+					"subtitle": "",
+					"difficulty": "0x76650",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ラ・モレーナ・クモナイ",
+					"subtitle": "",
+					"difficulty": "0xA87540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "意識のワーゼ",
+					"subtitle": "",
+					"difficulty": "0x97650",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "軽いざわめき",
+					"subtitle": "",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "絶望へのトッカータ",
+					"subtitle": "",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "太鼓侍",
+					"subtitle": "",
+					"difficulty": "0x888750",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "太陽もヤッパッパー",
+					"subtitle": "",
+					"difficulty": "0x845540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "宝の丘",
+					"subtitle": "",
+					"difficulty": "0x75440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "迷子のUFO",
+					"subtitle": "",
+					"difficulty": "0x76640",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "龍脈の王",
+					"subtitle": "",
+					"difficulty": "0x98750",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "VIVIVIVID",
+					"subtitle": "M-O-T-U",
+					"difficulty": "0xA6530",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "Diving Drive",
+					"subtitle": "Tanchiky feat. MuMenkyo.",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [6, 9]
+				},
+				{
+					"title": "ラパスの虹",
+					"subtitle": "LeNoir",
+					"difficulty": "0xA98740",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "そして勇者は眠りにつく",
+					"subtitle": "打打だいず",
+					"difficulty": "0xA96640",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "星河一天",
+					"subtitle": "打打だいず",
+					"difficulty": "0xA8640",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "Stick Trick ShowTime",
+					"subtitle": "みそみぃる",
+					"difficulty": "0xA8650",
+					"flags": "0",
+					"special_category": [3, 9]
+				},
+				{
+					"title": "いっそこのままで",
+					"subtitle": "ミフメイ(BNSI) feat. 相沢",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "零の狂詩曲",
+					"subtitle": "",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "令・和太鼓",
+					"subtitle": "翡翠",
+					"difficulty": "0x87440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ペットショップ大戦",
+					"subtitle": "chacol feat. Focco",
+					"difficulty": "0xA7540",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "崩冠の紅月",
+					"subtitle": "破章「嘆きの姫」",
+					"difficulty": "0x86550",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "カナデア",
+					"subtitle": "",
+					"difficulty": "0x88750",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "メンクイミラクル",
+					"subtitle": "",
+					"difficulty": "0x88650",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ダイエット・パラダイス",
+					"subtitle": "",
+					"difficulty": "0x87550",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "スクロール・ミカ",
+					"subtitle": "",
+					"difficulty": "0x77640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "エリンギのエクボ",
+					"subtitle": "",
+					"difficulty": "0x87650",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "GERMINATION",
+					"subtitle": "",
+					"difficulty": "0x77650",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ロボットロケンロー☆",
+					"subtitle": "",
+					"difficulty": "0x64440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ブルちゃんのおや2",
+					"subtitle": "「腹ペコジャニー第二章～ブルちゃんのおや2～もっと食べたい1」より　(クラシック風)",
+					"difficulty": "0x86540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ブルちゃんのおやつ",
+					"subtitle": "",
+					"difficulty": "0x65420",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "ナマハゲノウタ",
+					"subtitle": "",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ドキドキ旨きゅん おまつりタイム",
+					"subtitle": "",
+					"difficulty": "0x96640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ダンガンノーツ",
+					"subtitle": "cosMo@暴走P",
+					"difficulty": "0xAA8750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "YOAKE",
+					"subtitle": "Capchii feat. Uzumaki",
+					"difficulty": "0xA8740",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "天泣の律",
+					"subtitle": "Capchii",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "音虫を響かせろ！",
+					"subtitle": "KiWi×Sho Okada(BNSI)",
+					"difficulty": "0x96530",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "音虫をつかまえろ！",
+					"subtitle": "KiWi",
+					"difficulty": "0x96530",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "六華の舞",
+					"subtitle": "ぺのれり",
+					"difficulty": "0xA6640",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "気焔万丈神楽",
+					"subtitle": "ぺのれり",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "コネクトカラーズ",
+					"subtitle": "Ponchi♪ feat.はぁち",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "狂瀾怒濤",
+					"subtitle": "xi",
+					"difficulty": "0xA98740",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "疾風怒濤",
+					"subtitle": "xi",
+					"difficulty": "0xAA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "和有るど経りて維持・序",
+					"subtitle": "団地ノ宮弥子",
+					"difficulty": "0x87530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "デッド・オア・ダイ",
+					"subtitle": "REDALiCE",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "或ル不和",
+					"subtitle": "aran",
+					"difficulty": "0xA8740",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "こ・き・く・くる・くる・くれ・こ！",
+					"subtitle": "諸星なな・加藤はるか",
+					"difficulty": "0x86430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "トラストゲーム",
+					"subtitle": "feat. SaChi(harineko)",
+					"difficulty": "0x96650",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "†バチ!ムチ!?マッスルキングダム†",
+					"subtitle": "溝口ゆうま feat. 大瀬良あい♡まるもこ",
+					"difficulty": "0xA7750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "蒼鷺之火",
+					"subtitle": "BlackY",
+					"difficulty": "0xA97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ARMAGEΔDON",
+					"subtitle": "BlackY",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [6, 9]
+				},
+				{
+					"title": "カラフル",
+					"subtitle": "しょご/野村渉悟",
+					"difficulty": "0xA8740",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "うちゅうひこ譚し冒険譚",
+					"subtitle": "しょご/野村渉悟",
+					"difficulty": "0xA8740",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "λ7708",
+					"subtitle": "Taiji",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "Caribbean Knight",
+					"subtitle": "Taiji",
+					"difficulty": "0xA7750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "Toon Town's Toys' Tune",
+					"subtitle": "Retropolitaliens",
+					"difficulty": "0xA6540",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "詩謳兎揺蕩兎",
+					"subtitle": "立秋 feat. ちょこ",
+					"difficulty": "0xA8640",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "ひよこ鑑定士さん",
+					"subtitle": "立秋 feat. ちょこ",
+					"difficulty": "0xA8640",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "まるくてはやくてすさまじいリズム",
+					"subtitle": "立秋 feat. ちょこ",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "にゃーにゃーにゃー",
+					"subtitle": "立秋 feat. ちょこ",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "EterNal Ring",
+					"subtitle": "museo",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "Coquette",
+					"subtitle": "Jun Kuroda",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "CYBERgenicALICE",
+					"subtitle": "",
+					"difficulty": "0x96540",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "シャイニング☆アブラカダブラ",
+					"subtitle": "～阿羅仁＆マジカルランプ姫～",
+					"difficulty": "0x96430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "マオウのショウタイム",
+					"subtitle": "",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "ラヴ♡スパイス♡ライクユー!!!",
+					"subtitle": "DJ Genki feat.ななひら,yukacco,藍月なくる",
+					"difficulty": "0xA8740",
+					"flags": "0",
+					"special_category": [3, 9]
+				},
+				{
+					"title": "OK I'm blue rat",
+					"subtitle": "E.G.G.",
+					"difficulty": "0xA8640",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "コナモノ☆",
+					"subtitle": "郷 拓郎",
+					"difficulty": "0x86540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "星屑とリニアと僕",
+					"subtitle": "feat. 結羽 (プラムソニック)",
+					"difficulty": "0x85540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "タイムトラベラー",
+					"subtitle": "伊東歌詞太郎",
+					"difficulty": "0x64320",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "うさぎのしっぽ",
+					"subtitle": "",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "三瀬川乱舞",
+					"subtitle": "",
+					"difficulty": "0xA87540",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "ガンスリンガーシンデレラ",
+					"subtitle": "",
+					"difficulty": "0x97650",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "さよならワーリャ",
+					"subtitle": "未来古代楽団 feat. 霜月はるか",
+					"difficulty": "0x97540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "竜と黒炎の姫君",
+					"subtitle": "",
+					"difficulty": "0xA87640",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "No Gravity",
+					"subtitle": "",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "天狗囃子",
+					"subtitle": "",
+					"difficulty": "0x97740",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "アントニオ",
+					"subtitle": "ゆるめるモ！",
+					"difficulty": "0x96640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "オール・イン・マイハート",
+					"subtitle": "ソメイヨシノ feat. 高木美佑 (Wake Up, Girls！)",
+					"difficulty": "0x98750",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "てんびん座急行 夜を行く",
+					"subtitle": "",
+					"difficulty": "0x87650",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "memoria ficta",
+					"subtitle": "",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "Choco Chiptune.",
+					"subtitle": "Ancraft",
+					"difficulty": "0x87640",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "凛",
+					"subtitle": "a_hisa",
+					"difficulty": "0x96430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "食らいむ！まうんとぱふぇ",
+					"subtitle": "unatra",
+					"difficulty": "0x98630",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "超絶技巧系少女",
+					"subtitle": "ねこかぶりサイクロン(xi+ねこみりん)",
+					"difficulty": "0xA7650",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "ココロボ",
+					"subtitle": "Ujico*",
+					"difficulty": "0xA6430",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "ネテモネテモ",
+					"subtitle": "☆しょーじ☆ feat.ほのか♡えりか",
+					"difficulty": "0x86630",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "アサガオ",
+					"subtitle": "BTB",
+					"difficulty": "0xA7540",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "Gloria",
+					"subtitle": "K.key",
+					"difficulty": "0xA7750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "女帝 ～インバラトゥーラ～",
+					"subtitle": "",
+					"difficulty": "0x98740",
+					"flags": "0",
+					"special_category": [8]
+				},
+				{
+					"title": "魔法陣 -サモン・デルタ-",
+					"subtitle": "",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "東京ソーダ 8Bit Edit",
+					"subtitle": "ヒゲドライVAN",
+					"difficulty": "0x87540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Day by Day!",
+					"subtitle": "",
+					"difficulty": "0x87530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "闇の魔法少女",
+					"subtitle": "Silver Forest feat.アキ",
+					"difficulty": "0x96640",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "がしゃどくろ",
+					"subtitle": "",
+					"difficulty": "0x87650",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "ピコピコ ルイン",
+					"subtitle": "セイクリッド ルイン×サカモト教授",
+					"difficulty": "0xA97650",
+					"flags": "0x200",
+					"special_category": [6, 9]
+				},
+				{
+					"title": "カラメルタイム☆",
+					"subtitle": "たんきゅん",
+					"difficulty": "0x86440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "電子ドラムの達人",
+					"subtitle": "ふぇのたす",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ぷるぷるしんぷる",
+					"subtitle": "Her Ghost Friend",
+					"difficulty": "0x87540",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "super star shooter",
+					"subtitle": "blue marble",
+					"difficulty": "0x87640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "魔法の喫茶店",
+					"subtitle": "",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Amanda",
+					"subtitle": "",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "鳳凰天舞無限崩れ",
+					"subtitle": "",
+					"difficulty": "0x97540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "恋幻想 (Love Fantasy)",
+					"subtitle": "",
+					"difficulty": "0x86640",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "アレキサンダーのテーマ",
+					"subtitle": "",
+					"difficulty": "0x88540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "そつおめしき",
+					"subtitle": "feat. unmo",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "ゆれるプリーツ実行委員",
+					"subtitle": "団地ノ宮弥子",
+					"difficulty": "0x87640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "シューガク トラベラーズ",
+					"subtitle": "うちやえゆか",
+					"difficulty": "0x85540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ほうかご☆マジシャン",
+					"subtitle": "まりんべーす",
+					"difficulty": "0x86640",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "合唱スタボーフェ！",
+					"subtitle": "with たま☆たい feat. 団地ノ宮",
+					"difficulty": "0x96640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "そつおめしき2ばん",
+					"subtitle": "feat. unmo",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "そつおめしき・ふる",
+					"subtitle": "feat. unmo",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Phantom Rider",
+					"subtitle": "濱本理央(BNSI)",
+					"difficulty": "0x987640",
+					"flags": "0",
+					"special_category": [8]
+				},
+				{
+					"title": "Heaven's Rider",
+					"subtitle": "濱本理央(BNSI)",
+					"difficulty": "0x98650",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Planet Quester XT",
+					"subtitle": "濱本理央(BNSI)",
+					"difficulty": "0xA96530",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "SAKURA EXHAUST",
+					"subtitle": "",
+					"difficulty": "0x97630",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "時空庁時空1課",
+					"subtitle": "feat. unmo",
+					"difficulty": "0x98640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "時空町3丁目",
+					"subtitle": "きゅんちゃこ",
+					"difficulty": "0x86540",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "ねぇ教えて",
+					"subtitle": "",
+					"difficulty": "0x76540",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "Calculator",
+					"subtitle": "M-O-T-U",
+					"difficulty": "0xA8740",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "Hurtling Boys",
+					"subtitle": "さだきち イシカダス",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [6, 9]
+				},
+				{
+					"title": "LECIEL GLISSANDO",
+					"subtitle": "よみぃ",
+					"difficulty": "0xA7650",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "D's Adventure Note",
+					"subtitle": "よみぃ",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "大空と太鼓の踊り",
+					"subtitle": "paraμ",
+					"difficulty": "0x98640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ツンデレCafeへようこそ☆",
+					"subtitle": "ねこじゃが*",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "DEBSTEP!",
+					"subtitle": "やじゅ",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "夜櫻ブレヰダアズ",
+					"subtitle": "ぽんきち",
+					"difficulty": "0x98750",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "化物月夜",
+					"subtitle": "くにきち",
+					"difficulty": "0x88650",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "オレサマパイレーツ",
+					"subtitle": "",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "テルミン狂想曲",
+					"subtitle": "第42楽章「悲愴」",
+					"difficulty": "0x76640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ミーナのおやしき",
+					"subtitle": "",
+					"difficulty": "0x97540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "おばけのお仕事",
+					"subtitle": "",
+					"difficulty": "0x64540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Dream Time",
+					"subtitle": "ー夢の潮流ー",
+					"difficulty": "0x87530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "豊穣弥生",
+					"subtitle": "",
+					"difficulty": "0x87640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "少女の神の粒子",
+					"subtitle": "",
+					"difficulty": "0x97540",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "Phoenix",
+					"subtitle": "",
+					"difficulty": "0x76540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "3piece-JazzPatry!",
+					"subtitle": "",
+					"difficulty": "0x97540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "風の国の龍と騎士",
+					"subtitle": "",
+					"difficulty": "0x87540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "DIMENSIONS",
+					"subtitle": "",
+					"difficulty": "0x98640",
+					"flags": "0",
+					"special_category": [8]
+				},
+				{
+					"title": "和蘭撫子",
+					"subtitle": "",
+					"difficulty": "0x86540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "恋の処方箋",
+					"subtitle": "",
+					"difficulty": "0x75530",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "junction",
+					"subtitle": "",
+					"difficulty": "0x96540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ソードバトラーズ",
+					"subtitle": "",
+					"difficulty": "0x976640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ファミレスウォーズ",
+					"subtitle": "",
+					"difficulty": "0x85420",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "Fly away",
+					"subtitle": "",
+					"difficulty": "0x75540",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "忍者は最高",
+					"subtitle": "",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "渚のアンドロメダ",
+					"subtitle": "",
+					"difficulty": "0x85440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ダンバ・ダンバ・ディン・ダン",
+					"subtitle": "by YMCK",
+					"difficulty": "0x87650",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "MATSURI D/A",
+					"subtitle": "",
+					"difficulty": "0x88750",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "My Mine",
+					"subtitle": "",
+					"difficulty": "0x964540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Growing Up",
+					"subtitle": "",
+					"difficulty": "0x65530",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "リバイバー",
+					"subtitle": "",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ラーメン de Yo-Men!!",
+					"subtitle": "",
+					"difficulty": "0x75440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "想いを手に願いを込めて",
+					"subtitle": "",
+					"difficulty": "0x75540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ヘイ, ミスタープロフェッサー",
+					"subtitle": "",
+					"difficulty": "0x76430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "犬吠える",
+					"subtitle": "",
+					"difficulty": "0x65540",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "久遠の夜",
+					"subtitle": "",
+					"difficulty": "0x86540",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "マーブルハート",
+					"subtitle": "",
+					"difficulty": "0x65530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ブレイクライン",
+					"subtitle": "",
+					"difficulty": "0x87530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "蒼の旋律",
+					"subtitle": "",
+					"difficulty": "0xA97640",
+					"flags": "0",
+					"special_category": [6, 9]
+				},
+				{
+					"title": "朱の旋律",
+					"subtitle": "",
+					"difficulty": "0xA8740",
+					"flags": "0",
+					"special_category": [6, 9]
+				},
+				{
+					"title": "どん子のファーストデート",
+					"subtitle": "",
+					"difficulty": "0x843440",
+					"flags": "0x10",
+					"special_category": [6]
+				},
+				{
+					"title": "オフ♨ロック",
+					"subtitle": "",
+					"difficulty": "0x76640",
+					"flags": "0x4",
+					"special_category": [7]
+				},
+				{
+					"title": "ゴーゴー・キッチン",
+					"subtitle": "",
+					"difficulty": "0xA77550",
+					"flags": "0x4",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "スポーツダイジェスドン",
+					"subtitle": "～Fill in The Sky～",
+					"difficulty": "0x976540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "未来への鍵",
+					"subtitle": "",
+					"difficulty": "0x75640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "風雲！バチお先生",
+					"subtitle": "",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "風雲！バチお先生 -Long Ver.-",
+					"subtitle": "",
+					"difficulty": "0x87540",
+					"flags": "0x20",
+					"special_category": []
+				},
+				{
+					"title": "迅風丸",
+					"subtitle": "",
+					"difficulty": "0x986430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "エゴエゴアタクシ",
+					"subtitle": "",
+					"difficulty": "0x87740",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "DON'T CUT",
+					"subtitle": "",
+					"difficulty": "0x988740",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ユウガオノキミ",
+					"subtitle": "",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "散りゆく蘭の綴る詩",
+					"subtitle": "",
+					"difficulty": "0x96640",
+					"flags": "0x4",
+					"special_category": []
+				},
+				{
+					"title": "フューチャー・ラボ",
+					"subtitle": "",
+					"difficulty": "0x87430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Many wow bang!",
+					"subtitle": "",
+					"difficulty": "0x977440",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "ねがいごと☆ぱずる",
+					"subtitle": "",
+					"difficulty": "0x86330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "めたるぽりす",
+					"subtitle": "",
+					"difficulty": "0x997640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "NECOLOGY",
+					"subtitle": "",
+					"difficulty": "0x87530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "タイコタイム",
+					"subtitle": "",
+					"difficulty": "0xA97650",
+					"flags": "0xC",
+					"special_category": [9]
+				},
+				{
+					"title": "Mulberry",
+					"subtitle": "",
+					"difficulty": "0x76640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "LOVE戦!!",
+					"subtitle": "",
+					"difficulty": "0x87530",
+					"flags": "0x4",
+					"special_category": [3]
+				},
+				{
+					"title": "白猫きゃらめる夢幻のわたあめ",
+					"subtitle": "",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "駄々っ子モンスター",
+					"subtitle": "",
+					"difficulty": "0x95540",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "夢色コースター",
+					"subtitle": "",
+					"difficulty": "0x87440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "君のプラネット",
+					"subtitle": "",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "画竜点睛",
+					"subtitle": "西込加久見",
+					"difficulty": "0x87650",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "真・画竜点睛",
+					"subtitle": "西込加久見",
+					"difficulty": "0x996540",
+					"flags": "0x18",
+					"special_category": []
+				},
+				{
+					"title": "月下美人",
+					"subtitle": "西込加久見",
+					"difficulty": "0x87640",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "黒船来航",
+					"subtitle": "西込加久見",
+					"difficulty": "0x86540",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "百花繚乱",
+					"subtitle": "西込加久見",
+					"difficulty": "0x85430",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "戦国三弦",
+					"subtitle": "西込加久見",
+					"difficulty": "0x96440",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "風雲志士",
+					"subtitle": "西込加久見",
+					"difficulty": "0x87540",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "百鬼夜行",
+					"subtitle": "西込加久見",
+					"difficulty": "0x97550",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "桜花爛漫",
+					"subtitle": "西込加久見",
+					"difficulty": "0x87640",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "文明開化",
+					"subtitle": "西込加久見",
+					"difficulty": "0x996430",
+					"flags": "0x18",
+					"special_category": []
+				},
+				{
+					"title": "夜桜謝肉祭",
+					"subtitle": "",
+					"difficulty": "0xA98640",
+					"flags": "0x4",
+					"special_category": [9]
+				},
+				{
+					"title": "The Carnivorous Carnival",
+					"subtitle": "",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Evidence of evil",
+					"subtitle": "AJURIKA",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "Turquoise Tachometer",
+					"subtitle": "AJURIKA",
+					"difficulty": "0x98640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "エンジェル ドリーム",
+					"subtitle": "",
+					"difficulty": "0x987630",
+					"flags": "0x10",
+					"special_category": []
+				},
+				{
+					"title": "風のファンタジー",
+					"subtitle": "",
+					"difficulty": "0x86640",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "パステル ドリーム",
+					"subtitle": "",
+					"difficulty": "0x87640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ドン・エンガスの笛吹き",
+					"subtitle": "山本由貴子(BNSI)",
+					"difficulty": "0x87640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ザストゥールの魔導書",
+					"subtitle": "山本由貴子(BNSI)",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "リンドンヴァルナの黄昏",
+					"subtitle": "山本由貴子(BNSI)",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "カッティアワールの宝剣",
+					"subtitle": "山本由貴子",
+					"difficulty": "0x87540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "忘却のティルナノグ",
+					"subtitle": "山本由貴子",
+					"difficulty": "0x97540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ドンバルディアの踊り子",
+					"subtitle": "山本由貴子",
+					"difficulty": "0x86640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ヌムジカac.10",
+					"subtitle": "",
+					"difficulty": "0x98430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "STAGE 0.ac11",
+					"subtitle": "",
+					"difficulty": "0x98750",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "亜空間遊泳ac12.5",
+					"subtitle": "",
+					"difficulty": "0x98750",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "アルムジカac14.0V",
+					"subtitle": "",
+					"difficulty": "0x97740",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "3Q-4U-AC00",
+					"subtitle": "",
+					"difficulty": "0x74630",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "SORA-I アースライズ",
+					"subtitle": "",
+					"difficulty": "0x87530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "SORA-II グリーゼ581",
+					"subtitle": "",
+					"difficulty": "0x77330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "SORA-V コズミックバード",
+					"subtitle": "",
+					"difficulty": "0x86430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "SORA-VI 火の鳥",
+					"subtitle": "",
+					"difficulty": "0x97550",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "季曲",
+					"subtitle": "～Seasons of Asia～",
+					"difficulty": "0x875530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "蓄勢",
+					"subtitle": "～GEAR UP～",
+					"difficulty": "0x876530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "蛻変",
+					"subtitle": "～transformation～",
+					"difficulty": "0x876530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "春遊",
+					"subtitle": "～happy excursion～",
+					"difficulty": "0x876540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "綻放",
+					"subtitle": "～Blooming～",
+					"difficulty": "0x876530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "花漾",
+					"subtitle": "～Flourishing Blossoms～",
+					"difficulty": "0x975430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "蝶戀",
+					"subtitle": "～Obsession～",
+					"difficulty": "0x874430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "dance strom",
+					"subtitle": "",
+					"difficulty": "0x976640",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "らんぶる乱舞",
+					"subtitle": "",
+					"difficulty": "0x888740",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "サンバ アレグリーア",
+					"subtitle": "",
+					"difficulty": "0x976640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "燎原ノ舞",
+					"subtitle": "",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "旋風ノ舞【天】",
+					"subtitle": "",
+					"difficulty": "0xAA8540",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "旋風ノ舞【地】",
+					"subtitle": "",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "天妖ノ舞",
+					"subtitle": "",
+					"difficulty": "0x98630",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Blue Rose Ruin",
+					"subtitle": "",
+					"difficulty": "0x88750",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "双竜ノ乱",
+					"subtitle": "",
+					"difficulty": "0xAA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "紫煌ノ乱",
+					"subtitle": "",
+					"difficulty": "0xA8650",
+					"flags": "0",
+					"special_category": [6, 9]
+				},
+				{
+					"title": "冬竜 ～Toryu～",
+					"subtitle": "あず♪",
+					"difficulty": "0x987540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "夏竜 ～Karyu～",
+					"subtitle": "あず♪",
+					"difficulty": "0x987640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "氷竜 ～Kooryu～",
+					"subtitle": "あず♪",
+					"difficulty": "0xA98750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "神竜 ～Shinryu～",
+					"subtitle": "あず♪ & Masahiro \"Godspeed\" Aoki",
+					"difficulty": "0xAA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "刻竜 ～Kokuryu～",
+					"subtitle": "あず♪",
+					"difficulty": "0xA7750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "束ね糸",
+					"subtitle": "はるばな feat.石黒千尋",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "懐中庭園を持つ少女",
+					"subtitle": "はるばな feat.石黒千尋",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "Goldfish City",
+					"subtitle": "はるばな",
+					"difficulty": "0xA8740",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "魔法式逃走奇譚☆ミ",
+					"subtitle": "MOES feat. 海保えりか",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Princess of Donder",
+					"subtitle": "MOES feat. 海保えりか",
+					"difficulty": "0x95540",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "愛想笑い",
+					"subtitle": "かねこちはる",
+					"difficulty": "0x87650",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "G意識過剰",
+					"subtitle": "",
+					"difficulty": "0x97650",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "χ談",
+					"subtitle": "かねこちはる",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "ex寅 Trap!!",
+					"subtitle": "かねこちはる",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "Xa",
+					"subtitle": "Tatsh",
+					"difficulty": "0xA97650",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "Shiny Kung-fu Revival",
+					"subtitle": "t+pazolite",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "!!!カオスタイム!!!",
+					"subtitle": "t+pazolite",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "彼は誰時の誘惑",
+					"subtitle": "t+pazolite",
+					"difficulty": "0xA96320",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "SUPERNOVA",
+					"subtitle": "USAO",
+					"difficulty": "0xAA8750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "アムピト♢リーテー",
+					"subtitle": "かねこちはる",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "Clotho クロートー",
+					"subtitle": "Tatsh feat. 小田ユウ",
+					"difficulty": "0xA7750",
+					"flags": "0",
+					"special_category": [6, 9]
+				},
+				{
+					"title": "Behemoth",
+					"subtitle": "DJ Myosuke",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [6, 9]
+				},
+				{
+					"title": "月読命",
+					"subtitle": "Tatsh a.k.a 世阿弥",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "8OROCHI",
+					"subtitle": "REDALiCE",
+					"difficulty": "0xAA8750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "VICTORIA",
+					"subtitle": "Cranky",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "KUSANAGI",
+					"subtitle": "aran",
+					"difficulty": "0x97650",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "カグツチ",
+					"subtitle": "Massive New Krew",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "イオシス秋の肉食祭2014",
+					"subtitle": "D.watt(IOSYS) feat. Np 犬田彦&はかせ",
+					"difficulty": "0x97630",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "パン vs ごはん！　大決戦！",
+					"subtitle": "コバヤシユウヤ(IOSYS) feat. miko & 山本椛",
+					"difficulty": "0xAA7750",
+					"flags": "0x18",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "HARDCOREノ心得",
+					"subtitle": "DJ Myosuke",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "Don't Stop the Game",
+					"subtitle": "DJ Myosuke",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "mint tears",
+					"subtitle": "",
+					"difficulty": "0xA7640",
+					"flags": "0x4",
+					"special_category": [6, 9]
+				},
+				{
+					"title": "Central Dogma Pt.2",
+					"subtitle": "黒沢ダイスケ",
+					"difficulty": "0xA8650",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "Central Dogma Pt.1",
+					"subtitle": "黒沢ダイスケ",
+					"difficulty": "0xAA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "幕末維新譚",
+					"subtitle": "黒沢ダイスケ×Masahiro \"Godspeed\" Aoki",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "天下統一録",
+					"subtitle": "黒沢ダイスケ×Masahiro \"Godspeed\" Aoki",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "Infinite Rebellion",
+					"subtitle": "黒沢ダイスケ 原曲「幽玄ノ乱/世阿弥(Tatsh)」",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "濃紅",
+					"subtitle": "黒沢ダイスケ×小寺可南子",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "Ignis Dance",
+					"subtitle": "Yuji Masubuchi(BNSI)",
+					"difficulty": "0xA8740",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "Taiko Dram Monster",
+					"subtitle": "steμ(BNSI) feat. siroa",
+					"difficulty": "0xAA7530",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "晴天の黎明",
+					"subtitle": "steμ(BNSI) feat. siroa",
+					"difficulty": "0xA7630",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "タイコロール",
+					"subtitle": "steμ(BNSI) feat. siroa",
+					"difficulty": "0xA7650",
+					"flags": "0",
+					"special_category": [6, 9]
+				},
+				{
+					"title": "さいたま2000",
+					"subtitle": "",
+					"difficulty": "0x77750",
+					"flags": "0x8",
+					"special_category": [7]
+				},
+				{
+					"title": "ケチャドン2000",
+					"subtitle": "",
+					"difficulty": "0x98650",
+					"flags": "0x8",
+					"special_category": [8]
+				},
+				{
+					"title": "恋文2000",
+					"subtitle": "",
+					"difficulty": "0x98750",
+					"flags": "0x8",
+					"special_category": [3, 7]
+				},
+				{
+					"title": "よくでる2000",
+					"subtitle": "",
+					"difficulty": "0x97650",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "タベルナ2000",
+					"subtitle": "",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "十露盤2000",
+					"subtitle": "",
+					"difficulty": "0xA8640",
+					"flags": "0xF",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "てんぢく2000",
+					"subtitle": "",
+					"difficulty": "0xA8740",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "EkiBEN2000",
+					"subtitle": "",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [6, 9]
+				},
+				{
+					"title": "X-DAY2000",
+					"subtitle": "",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [6, 9]
+				},
+				{
+					"title": "はたラク2000",
+					"subtitle": "",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "またさいたま2000",
+					"subtitle": "",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "スーハー2000",
+					"subtitle": "",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [3, 8, 9]
+				},
+				{
+					"title": "ノるどん2000",
+					"subtitle": "",
+					"difficulty": "0xA7640",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "わら得る2000",
+					"subtitle": "",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "≠MM",
+					"subtitle": "",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				}
+			]
+		},
+		{
+			"genre": 2,
+			"music_list": [
+				{
+					"title": "TT",
+					"subtitle": "",
+					"difficulty": "0x75530",
+					"flags": "0",
+					"special_category": [3, 5]
+				},
+				{
+					"title": "bad guy",
+					"subtitle": "",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "LAST CHRISTMAS",
+					"subtitle": "",
+					"difficulty": "0x75540",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "I want You Back",
+					"subtitle": "",
+					"difficulty": "0x85330",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "NIGHT DANCER",
+					"subtitle": "",
+					"difficulty": "0x64430",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "誓いの花束を～With You～",
+					"subtitle": "すとぷり",
+					"difficulty": "0x64320",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "青春チョコレート",
+					"subtitle": "すとぷり",
+					"difficulty": "0x75420",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "スキスキ星人",
+					"subtitle": "すとぷり / ナユタン星人",
+					"difficulty": "0x65330",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "はいよろこんで",
+					"subtitle": "こっちのけんと",
+					"difficulty": "0x975420",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "睨めっ娘",
+					"subtitle": "友成空",
+					"difficulty": "0x85440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "鬼の宴",
+					"subtitle": "友成空",
+					"difficulty": "0x85320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "I wonder",
+					"subtitle": "ドラマ「くるり～誰かが私と恋をした？～」より",
+					"difficulty": "0x54430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "スターマイン",
+					"subtitle": "",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "CITRUS",
+					"subtitle": "ドラマ「極主夫道」より",
+					"difficulty": "0x75320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "二度寝",
+					"subtitle": "ドラマ「不適切にもほどがある！」より",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ビビデバ",
+					"subtitle": "星街すいせい",
+					"difficulty": "0x84320",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "イガク",
+					"subtitle": "原口沙輔 feat. 重音テト",
+					"difficulty": "0xA86530",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "オーバーライド",
+					"subtitle": "吉田夜世 feat. 重音テト",
+					"difficulty": "0x96530",
+					"flags": "0",
+					"special_category": [5, 7]
+				},
+				{
+					"title": "幾億光年",
+					"subtitle": "ドラマ「Eye Love You」主題歌",
+					"difficulty": "0x64310",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "晩餐歌",
+					"subtitle": "Taiko team cover ver.",
+					"difficulty": "0x74420",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "唱",
+					"subtitle": "ユニバーサル・スタジオ・ジャパン「ゾンビ・デ・ダンス」新テーマソング",
+					"difficulty": "0x86420",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "踊",
+					"subtitle": "Ado",
+					"difficulty": "0x85320",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "うっせぇわ",
+					"subtitle": "Ado",
+					"difficulty": "0x83220",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "サマータイムシンデレラ",
+					"subtitle": "",
+					"difficulty": "0x74430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "セケラセラ",
+					"subtitle": "",
+					"difficulty": "0x74320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ダンスホール",
+					"subtitle": "",
+					"difficulty": "0x76320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "愛の花",
+					"subtitle": "連続テレビ小説「らんまん」主題歌",
+					"difficulty": "0x62220",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "裸の心",
+					"subtitle": "TBS系 火曜ドラマ「私の家政夫ナギサさん」主題歌",
+					"difficulty": "0x75210",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "君はロックを聴かない",
+					"subtitle": "",
+					"difficulty": "0x42110",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "いろはすてっぷ！",
+					"subtitle": "風真いろは",
+					"difficulty": "0x75530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "オーバード",
+					"subtitle": "鷹嶺ルイ",
+					"difficulty": "0xA75320",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "ねねねねねねねね!大暴走",
+					"subtitle": "桃鈴ねね",
+					"difficulty": "0x74430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Ahoy!! 我ら宝鐘海賊団☆",
+					"subtitle": "宝鐘マリン",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ほめのび",
+					"subtitle": "白銀ノエル",
+					"difficulty": "0x42110",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Smile & Go!!",
+					"subtitle": "不知火フレア",
+					"difficulty": "0x74420",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ちゅ、多様性。",
+					"subtitle": "TVアニメ「チェンソーマン」エンディング・テーマ",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "可愛くてごめん",
+					"subtitle": "",
+					"difficulty": "0x75420",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Subtitle",
+					"subtitle": "",
+					"difficulty": "0x75320",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "わたしの一番かわいいところ",
+					"subtitle": "FRUITS ZIPPER",
+					"difficulty": "0x75320",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "Habit",
+					"subtitle": "映画「ホリック xxxHOLiC」主題歌",
+					"difficulty": "0x875420",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "RPG",
+					"subtitle": "",
+					"difficulty": "0x64330",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "Surges",
+					"subtitle": "",
+					"difficulty": "0xA86430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "フォニイ",
+					"subtitle": "ツキミ feat. 音楽的同位体 可不(KAFU)",
+					"difficulty": "0x975430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "W/X/Y",
+					"subtitle": "",
+					"difficulty": "0x74330",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "シル・ヴ・プレジデント",
+					"subtitle": "P丸様。",
+					"difficulty": "0x975430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "HIMAWARI HAPPY",
+					"subtitle": "HIMAWARIちゃんねる",
+					"difficulty": "0x22110",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "乱数調整のリバースシンデレラ",
+					"subtitle": "粗品 feat. 彩宮すう(CV:竹達彩奈)",
+					"difficulty": "0xA86530",
+					"flags": "0",
+					"special_category": [3, 9]
+				},
+				{
+					"title": "群青",
+					"subtitle": "",
+					"difficulty": "0x86420",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ハルジオン",
+					"subtitle": "",
+					"difficulty": "0x75320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ドライフラワー",
+					"subtitle": "",
+					"difficulty": "0x75310",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "星影のエール",
+					"subtitle": "連続テレビ小説「エール」主題歌",
+					"difficulty": "0x53120",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "アイノカタチ feat. HIDE (GReeeeN)",
+					"subtitle": "",
+					"difficulty": "0x43210",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ミセナイナミダハ、きっといつか",
+					"subtitle": "",
+					"difficulty": "0x64310",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "キセキ",
+					"subtitle": "",
+					"difficulty": "0x23230",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "愛唄",
+					"subtitle": "",
+					"difficulty": "0x32220",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "オトナブルー",
+					"subtitle": "新しい学校のリーダーズ",
+					"difficulty": "0x74420",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "春を告げる",
+					"subtitle": "yama",
+					"difficulty": "0x87430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "白日",
+					"subtitle": "",
+					"difficulty": "0x82220",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "香水",
+					"subtitle": "",
+					"difficulty": "0x63210",
+					"flags": "0",
+					"special_category": [3, 4]
+				},
+				{
+					"title": "Walking with you",
+					"subtitle": "",
+					"difficulty": "0x85420",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "世界はあなたに笑いかけている",
+					"subtitle": "",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "さよならエレジー",
+					"subtitle": "",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ドラマツルギー",
+					"subtitle": "Eve",
+					"difficulty": "0x853220",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ナンセンス文学",
+					"subtitle": "Eve",
+					"difficulty": "0x74220",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "猫",
+					"subtitle": "",
+					"difficulty": "0x83320",
+					"flags": "0",
+					"special_category": [3, 4]
+				},
+				{
+					"title": "明日も",
+					"subtitle": "NTTドコモ「ドコモの学割」CMソング",
+					"difficulty": "0x23210",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "恋",
+					"subtitle": "ドラマ「逃げるは恥だが役に立つ」より",
+					"difficulty": "0x163320",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "好きな人がいること",
+					"subtitle": "",
+					"difficulty": "0x76430",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "極楽浄土",
+					"subtitle": "",
+					"difficulty": "0x75530",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "Soup",
+					"subtitle": "",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "君がくれた夏",
+					"subtitle": "",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "海の声",
+					"subtitle": "au「三太郎シリーズ」CMソング",
+					"difficulty": "0x65320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ギミチョコ！！",
+					"subtitle": "",
+					"difficulty": "0xA87640",
+					"flags": "0",
+					"special_category": [3, 5, 7]
+				},
+				{
+					"title": "無敵のガールフレンド",
+					"subtitle": "",
+					"difficulty": "0x54320",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "あったかいんだからぁ♪",
+					"subtitle": "",
+					"difficulty": "0x74530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "あなたに恋をしてみました",
+					"subtitle": "",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "君に桜ヒラリと舞う",
+					"subtitle": "",
+					"difficulty": "0x75530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ラブラドル・レトリバー",
+					"subtitle": "",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "恋するフォーチュンクッキー",
+					"subtitle": "",
+					"difficulty": "0x76430",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "さよならクロール",
+					"subtitle": "",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "フライングゲット",
+					"subtitle": "",
+					"difficulty": "0x55320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ポニーテールとシュシュ",
+					"subtitle": "",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Highschool ♡ love",
+					"subtitle": "",
+					"difficulty": "0x76430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "R.Y.U.S.E.I.",
+					"subtitle": "",
+					"difficulty": "0x87530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ひまわりの約束",
+					"subtitle": "",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ケラケラじゃんけん",
+					"subtitle": "",
+					"difficulty": "0x75320",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "デジタルモグラ",
+					"subtitle": "",
+					"difficulty": "0x74320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ラブソングはとまらないよ",
+					"subtitle": "「カルピスウォーター」CMソング",
+					"difficulty": "0x64430",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "KISS KISS BANG BANG",
+					"subtitle": "アサヒ飲料十六茶CM",
+					"difficulty": "0x55440",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "歩いていこう",
+					"subtitle": "",
+					"difficulty": "0x31210",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "じょいふる",
+					"subtitle": "",
+					"difficulty": "0x66430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "恋音と雨空",
+					"subtitle": "",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ごめんなさいのKissing you",
+					"subtitle": "",
+					"difficulty": "0x76540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Follow me",
+					"subtitle": "",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "24 karats TRIBE OF GOLD",
+					"subtitle": "",
+					"difficulty": "0x74430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "マル・マル・モリ・モリ！",
+					"subtitle": "",
+					"difficulty": "0x53320",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "365日のラブストーリー",
+					"subtitle": "",
+					"difficulty": "0x63330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "愛をこめて花束を",
+					"subtitle": "",
+					"difficulty": "0x54220",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "366日",
+					"subtitle": "",
+					"difficulty": "0x75320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "蕾",
+					"subtitle": "",
+					"difficulty": "0x33330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "三日月",
+					"subtitle": "",
+					"difficulty": "0x54130",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "気分上々↑↑",
+					"subtitle": "",
+					"difficulty": "0x76440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "千の夜をこえて",
+					"subtitle": "",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "決意の朝に",
+					"subtitle": "",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "フレンジャー",
+					"subtitle": "",
+					"difficulty": "0x75540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "さくらんぼ",
+					"subtitle": "",
+					"difficulty": "0x84440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "粉雪",
+					"subtitle": "",
+					"difficulty": "0x66430",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "桜",
+					"subtitle": "",
+					"difficulty": "0x65330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "POP STAR",
+					"subtitle": "",
+					"difficulty": "0x74330",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "全力少年",
+					"subtitle": "",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "マツケンサンバII",
+					"subtitle": "",
+					"difficulty": "0x86550",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "LOVEマシーン",
+					"subtitle": "",
+					"difficulty": "0x55540",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "アポロ",
+					"subtitle": "",
+					"difficulty": "0x824420",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "Timing ～タイミング～",
+					"subtitle": "",
+					"difficulty": "0x86420",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "ROCKET DIVE",
+					"subtitle": "",
+					"difficulty": "0x63430",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "そばかす",
+					"subtitle": "",
+					"difficulty": "0x64340",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "ロビンソン",
+					"subtitle": "",
+					"difficulty": "0x74330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "EZ DO DANCE",
+					"subtitle": "",
+					"difficulty": "0x86430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "それが大事",
+					"subtitle": "",
+					"difficulty": "0x76430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "愛は勝つ",
+					"subtitle": "",
+					"difficulty": "0x75520",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "TRAIN-TRAIN",
+					"subtitle": "",
+					"difficulty": "0x54540",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "リンダリンダ",
+					"subtitle": "",
+					"difficulty": "0x55640",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "Romanticが止まらない",
+					"subtitle": "",
+					"difficulty": "0x66530",
+					"flags": "0x2",
+					"special_category": []
+				},
+				{
+					"title": "モンキー・マジック",
+					"subtitle": "",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "プラスティック・ラブ",
+					"subtitle": "",
+					"difficulty": "0x75420",
+					"flags": "0",
+					"special_category": [3, 5]
+				},
+				{
+					"title": "真夜中のドア～Stay with me",
+					"subtitle": "",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": []
+				}
+			]
+		},
+		{
+			"genre": 3,
+			"music_list": [
+				{
+					"title": "許婚っきゅん",
+					"subtitle": "「らんま1/2」より",
+					"difficulty": "0x75330",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "アイドル",
+					"subtitle": "TVアニメ『【推しの子】』より",
+					"difficulty": "0x74430",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "夢幻",
+					"subtitle": "",
+					"difficulty": "0x875420",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "残響散歌",
+					"subtitle": "",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "明け星",
+					"subtitle": "",
+					"difficulty": "0x65210",
+					"flags": "0x4",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "炎",
+					"subtitle": "",
+					"difficulty": "0x41210",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "ライラック",
+					"subtitle": "TVアニメ「忘却バッテリー」より",
+					"difficulty": "0x84430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "相思相愛",
+					"subtitle": "劇場版「名探偵コナン 100万ドルの五稜星」より",
+					"difficulty": "0x63220",
+					"flags": "0",
+					"special_category": [3, 4]
+				},
+				{
+					"title": "美しい鰭",
+					"subtitle": "「名探偵コナン 鉄板の魚影」より",
+					"difficulty": "0x64220",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "BLUE SAPPHIRE",
+					"subtitle": "「名探偵コナン 紺青の拳」より",
+					"difficulty": "0x866320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "カウントダウン",
+					"subtitle": "「名探偵コナン」より",
+					"difficulty": "0x85420",
+					"flags": "0",
+					"special_category": [4, 6]
+				},
+				{
+					"title": "オー！リバル",
+					"subtitle": "「名探偵コナン 業火の向日葵」より",
+					"difficulty": "0x87430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ハルウタ",
+					"subtitle": "「名探偵コナン 11人目のストライカー」より",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "名探偵コナン メイン・テーマ",
+					"subtitle": "",
+					"difficulty": "0x65130",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "晴る",
+					"subtitle": "TVアニメ『葬送のフリーレン』第2クールオープニングテーマ",
+					"difficulty": "0x74330",
+					"flags": "0",
+					"special_category": [4, 5, 7]
+				},
+				{
+					"title": "勇者",
+					"subtitle": "「葬送のフリーレン」より",
+					"difficulty": "0x975320",
+					"flags": "0",
+					"special_category": [4, 5, 7]
+				},
+				{
+					"title": "Bling-Bang-Bang-Born",
+					"subtitle": "TVアニメ「マッシュル-MASHLE- 神覚者候補選抜試験編」より",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": [4, 5, 8]
+				},
+				{
+					"title": "最高到達点",
+					"subtitle": "「ワンピース」より",
+					"difficulty": "0x75310",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "私は最強",
+					"subtitle": "「ウタの歌 ONE PIECE FILM RED」より",
+					"difficulty": "0x74320",
+					"flags": "0",
+					"special_category": [5, 6]
+				},
+				{
+					"title": "新時代",
+					"subtitle": "「ウタの歌 ONE PIECE FILM RED」より",
+					"difficulty": "0x75420",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "OVER THE TOP",
+					"subtitle": "ONE PIECEワノ国編主題歌",
+					"difficulty": "0x62210",
+					"flags": "0",
+					"special_category": [5, 7]
+				},
+				{
+					"title": "怒りをくれよ",
+					"subtitle": "「ワンピース フィルム ゴールド」より",
+					"difficulty": "0x66530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Wake up!",
+					"subtitle": "「ワンピース」より",
+					"difficulty": "0x65530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "HANDS UP!",
+					"subtitle": "「ワンピース」より",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ウィーゴー！",
+					"subtitle": "「ワンピース」より",
+					"difficulty": "0x65230",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "One day",
+					"subtitle": "「ワンピース」より",
+					"difficulty": "0x65320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Jungle P",
+					"subtitle": "「ワンピース」より",
+					"difficulty": "0x75220",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "BRAND NEW WORLD",
+					"subtitle": "「ワンピース」より",
+					"difficulty": "0x54530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ココロのちず",
+					"subtitle": "「ワンピース」より",
+					"difficulty": "0x54430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ウィーアー！",
+					"subtitle": "「ワンピース」より",
+					"difficulty": "0xA65430",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "クラクラ",
+					"subtitle": "TVアニメ「SPY×FAMILY」Season 2 オープニング主題歌",
+					"difficulty": "0x74420",
+					"flags": "0",
+					"special_category": [4, 5, 6]
+				},
+				{
+					"title": "SOUVENIR",
+					"subtitle": "BUMP OF CHICKEN TVアニメ「SPY×FAMILY」第2クールオープニング主題歌",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "WISE - BONDMAN - STRIX",
+					"subtitle": "TVアニメ「SPY×FAMILY」より",
+					"difficulty": "0x85530",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "青のすみか",
+					"subtitle": "TVアニメ「呪術廻戦 懐玉・玉折」オープニングテーマ",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "Battaille Décisive",
+					"subtitle": "「ヱヴァンゲリヲン新劇場版 : 序」より",
+					"difficulty": "0x75330",
+					"flags": "0x8",
+					"special_category": [5]
+				},
+				{
+					"title": "第ゼロ感",
+					"subtitle": "Taiko Team cover ver. / 「THE FIRST SLAM DUMK」より",
+					"difficulty": "0x75530",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "祝福",
+					"subtitle": "「機動戦士ガンダム 水星の魔女」より",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "閃光",
+					"subtitle": "『機動戦士ガンダム 閃光のハサウェイ』より",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "セルリアン",
+					"subtitle": "「ガンダムビルドファイターズトライ」より",
+					"difficulty": "0x75540",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "BLAZING",
+					"subtitle": "「Gのレコンギスタ」より",
+					"difficulty": "0x76640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "哀戦士",
+					"subtitle": "劇場版「機動戦士ガンダムII 哀 戦士編」より",
+					"difficulty": "0x86540",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "スカー",
+					"subtitle": "",
+					"difficulty": "0x85530",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "少女S",
+					"subtitle": "「BLEACH」より",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "アフターダーク",
+					"subtitle": "「BLEACH」より",
+					"difficulty": "0x85440",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "ALONES",
+					"subtitle": "「BLEACH」より",
+					"difficulty": "0x76430",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "一輪の花",
+					"subtitle": "「BLEACH」より",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "D-techLife",
+					"subtitle": "「BLEACH」より",
+					"difficulty": "0x86540",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "STONE OCEAN",
+					"subtitle": "「ジョジョの奇妙な冒険 ストーンオーシャン」より",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ジョジョ～その血の運命～",
+					"subtitle": "「ジョジョの奇妙な冒険」より",
+					"difficulty": "0x75530",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "THE DAY",
+					"subtitle": "「僕のヒーローアカデミア」より",
+					"difficulty": "0x86420",
+					"flags": "0",
+					"special_category": [5, 6]
+				},
+				{
+					"title": "ウキウキオトッペ",
+					"subtitle": "",
+					"difficulty": "0x94110",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "ドラえもん",
+					"subtitle": "",
+					"difficulty": "0x53110",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "ウンタカダンス",
+					"subtitle": "「映画ドラえもん 新・のび太の日本誕生」スペシャル応援ソング",
+					"difficulty": "0x64220",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "360°",
+					"subtitle": "「映画ドラえもん のび太の宇宙英雄記」より",
+					"difficulty": "0x75320",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "踊れ・どれ・ドラ ドラえもん音頭",
+					"subtitle": "",
+					"difficulty": "0x43120",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "ドラえもんのうた",
+					"subtitle": "",
+					"difficulty": "0x33210",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "ハム太郎とっとこうた",
+					"subtitle": "「とっとこハム太郎」より",
+					"difficulty": "0x56220",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "アンパンマンのマーチ",
+					"subtitle": "",
+					"difficulty": "0x15120",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "アンパンマンたいそう",
+					"subtitle": "「それいけ！アンパンマン」より",
+					"difficulty": "0x44220",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "勇気りんりん",
+					"subtitle": "「それいけ！アンパンマン」より",
+					"difficulty": "0x73320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ユルユルでDE-O!",
+					"subtitle": "「クレヨンしんちゃん」より",
+					"difficulty": "0x83220",
+					"flags": "0x2",
+					"special_category": [4]
+				},
+				{
+					"title": "キミに100パーセント",
+					"subtitle": "きゃりーぱみゅぱみゅ「クレヨンしんちゃん」より",
+					"difficulty": "0x55320",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "OLA!!",
+					"subtitle": "「映画クレヨンしんちゃん オラの引っ越し物語～サボテン大襲撃～」より",
+					"difficulty": "0x76440",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "友よ ～この先もずっと⋯",
+					"subtitle": "「映画クレヨンしんちゃん 爆睡！ユメミーワールド大突撃」より",
+					"difficulty": "0x54420",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "ロードムービー",
+					"subtitle": "「映画クレヨンしんちゃん 襲来！宇宙人シリリ」より",
+					"difficulty": "0x54430",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "マスカット",
+					"subtitle": "「クレヨンしんちゃん」より",
+					"difficulty": "0x21110",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "なめこのうた",
+					"subtitle": "",
+					"difficulty": "0x954420",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "キラキラEVERY DAY",
+					"subtitle": "「たまごっち！」より",
+					"difficulty": "0x22220",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "スタートライン！",
+					"subtitle": "「アイカツスターズ！」より",
+					"difficulty": "0x63220",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "ドリームパレード",
+					"subtitle": "「プリパラ」より",
+					"difficulty": "0x54430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "おどるポンポコリン",
+					"subtitle": "「ちびまる子ちゃん」より",
+					"difficulty": "0x843210",
+					"flags": "0x4",
+					"special_category": [4]
+				},
+				{
+					"title": "進化理論",
+					"subtitle": "「テレビアニメ 新幹線変形ロボ シンカリオン」より",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": [4, 6]
+				},
+				{
+					"title": "ルパン三世のテーマ'78",
+					"subtitle": "",
+					"difficulty": "0x876640",
+					"flags": "0x4",
+					"special_category": []
+				},
+				{
+					"title": "ゲゲゲの鬼太郎",
+					"subtitle": "TVアニメ 第6期 オーシャン主題歌",
+					"difficulty": "0xA21110",
+					"flags": "0",
+					"special_category": [4, 9]
+				},
+				{
+					"title": "限界突破×サバイバー",
+					"subtitle": "「ドラゴンボール超」より",
+					"difficulty": "0x833330",
+					"flags": "0x10",
+					"special_category": [5, 6]
+				},
+				{
+					"title": "超絶☆ダイナミック！",
+					"subtitle": "「ドラゴンボール超」より",
+					"difficulty": "0x64420",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "Dragon Soul",
+					"subtitle": "「ドラゴンボール改」より",
+					"difficulty": "0x64120",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "CHA-LA HEAD-CHA-LA",
+					"subtitle": "「ドラゴンボールZ」より",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "怪物",
+					"subtitle": "",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "PHOENIX",
+					"subtitle": "「ハイキュー!! TO THE TOP」より",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ヒカリアレ",
+					"subtitle": "「ハイキュー!! 鳥野高校 VS 白鳥沢学園高校」より",
+					"difficulty": "0x96530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "イマジネーション",
+					"subtitle": "「ハイキュー!!」より",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "コネクト",
+					"subtitle": "「魔法少女まどか☆マギカ」より",
+					"difficulty": "0x53330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "インフェルノ",
+					"subtitle": "「炎炎ノ消防隊」より",
+					"difficulty": "0x85530",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "Touch off",
+					"subtitle": "「約束のネバーランド」より",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "お願いマッスル",
+					"subtitle": "「ダンベル何キロ持てる？」より",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "crossing field",
+					"subtitle": "「ソードアート・オンライン」より",
+					"difficulty": "0x64420",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Realize",
+					"subtitle": "「Re:ゼロから始める異世界生活」より",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "Paradisus-Pradoxum",
+					"subtitle": "「Re:ゼロから始める異世界生活」より",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "ブラッドサーキュレーター",
+					"subtitle": "「NARUTO-ナルト- 疾風伝」より",
+					"difficulty": "0x75420",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "透明だった世界",
+					"subtitle": "「NARUTO-ナルト- 疾風伝」より",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Sign",
+					"subtitle": "「NARUTO-ナルト- 疾風伝」より",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ホタルノヒカリ",
+					"subtitle": "「NARUTO-ナルト- 疾風伝」より",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ブルーバード",
+					"subtitle": "「NARUTO-ナルト- 疾風伝」より",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "Hero's Come Back!!",
+					"subtitle": "「NARUTO-ナルト- 疾風伝」より",
+					"difficulty": "0x76430",
+					"flags": "0xC",
+					"special_category": []
+				},
+				{
+					"title": "GO!!",
+					"subtitle": "「NARUTO」より",
+					"difficulty": "0x85440",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "カゲロウ",
+					"subtitle": "「銀魂.」より",
+					"difficulty": "0x74420",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "DAY×DAY",
+					"subtitle": "「銀魂゜」より",
+					"difficulty": "0x86540",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "LET'S GO OUT",
+					"subtitle": "「銀魂'」より",
+					"difficulty": "0x64330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "桃源郷エイリアン",
+					"subtitle": "「銀魂'」より",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "曇天",
+					"subtitle": "「銀魂」より",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": [5, 6]
+				},
+				{
+					"title": "銀色の空",
+					"subtitle": "「銀魂」より",
+					"difficulty": "0x75230",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "青空のラプソディ",
+					"subtitle": "TVアニメ「小林さんのメイドラゴン」OP主題歌",
+					"difficulty": "0x985430",
+					"flags": "0",
+					"special_category": [8]
+				},
+				{
+					"title": "SHINY",
+					"subtitle": "「境界のRINNE」第3シリーズより",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "全力バタンキュー",
+					"subtitle": "「おそ松さん」より",
+					"difficulty": "0x86420",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "シュガーソングとビターステップ",
+					"subtitle": "「血海戦線」より",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "自力本願レボリューション",
+					"subtitle": "「暗殺教室」より",
+					"difficulty": "0x73330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "光るなら",
+					"subtitle": "「四月は君の噓」より",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "アシタノヒカリ",
+					"subtitle": "「ワールドトリガー」より",
+					"difficulty": "0x86320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "情熱のスペクトラム",
+					"subtitle": "「七つの大罪」より",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Daydream café",
+					"subtitle": "「ご注文はうさぎですか？」より",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "database feat.TAKUMA(10FEET)",
+					"subtitle": "「ログ・ホライズン」より",
+					"difficulty": "0x76640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "豪食マイウェイ!!",
+					"subtitle": "「トリコ」より",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ガツガツ!!",
+					"subtitle": "「トリコ」より",
+					"difficulty": "0x54430",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "V.I.P",
+					"subtitle": "「マギ」より",
+					"difficulty": "0x64540",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "Hacking to the Gate",
+					"subtitle": "TVアニメ「シュタインズ・ゲート」より",
+					"difficulty": "0x63220",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "オリオンをなぞる",
+					"subtitle": "「TIGER & BUNNY」より",
+					"difficulty": "0x75440",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "Snow halation",
+					"subtitle": "μ's「ラブライブ！」より",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "My Soul,Your Beats!",
+					"subtitle": "「Angel Beats!」より",
+					"difficulty": "0x87430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "噓",
+					"subtitle": "アニメ「鋼の錬金術師 FULLMETAL ALCHEMIST」EDテーマ",
+					"difficulty": "0x65530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "リライト",
+					"subtitle": "アニメ「鋼の錬金術師」OPテーマ",
+					"difficulty": "0x63440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "02",
+					"subtitle": "「コードギアス 反逆のルルーシュR2」より",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "もってけ！セーラーふく",
+					"subtitle": "「らき☆すた」より",
+					"difficulty": "0x87630",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "God knowns...",
+					"subtitle": "「涼宮ハルヒの憂鬱」より",
+					"difficulty": "0x974430",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "ドラマチック",
+					"subtitle": "「ハチミツとクローバー」より",
+					"difficulty": "0x86440",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "月光花",
+					"subtitle": "TVアニメ「ブラック・ジャック」より",
+					"difficulty": "0x64430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "創聖のアクエリオン",
+					"subtitle": "",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "快晴・上昇・ハレルーヤ",
+					"subtitle": "「遊☆戯☆王デュエルモンスターズGX」より",
+					"difficulty": "0x97750",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "ホウキ雲",
+					"subtitle": "「焼きたて!!ジャぱん」より",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "inner universe",
+					"subtitle": "「攻殻機動隊 STAND ALONE COMPLEX」より",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "ロマンス",
+					"subtitle": "「セクシーコマンドー外伝 すごいよ!!マサルさん」より",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": [3]
+				},
+				{
+					"title": "Tank!",
+					"subtitle": "「カウボーイビバップ」より",
+					"difficulty": "0x997550",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "コミカルに追いかけっこ",
+					"subtitle": "「こちら葛飾区亀有公園前派出所」より",
+					"difficulty": "0x75420",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Get Wild",
+					"subtitle": "「シティーハンター」より",
+					"difficulty": "0x785430",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "ペガサス幻想",
+					"subtitle": "「聖闘士星矢」より",
+					"difficulty": "0x64530",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "タッチ",
+					"subtitle": "",
+					"difficulty": "0x56440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ラムのラブソング",
+					"subtitle": "「うる星やつら」より",
+					"difficulty": "0x85650",
+					"flags": "0x8",
+					"special_category": [3, 6]
+				},
+				{
+					"title": "宇宙戦艦ヤマト",
+					"subtitle": "",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "キューティーハニー",
+					"subtitle": "",
+					"difficulty": "0x76330",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "グランドエスケープ",
+					"subtitle": "天気の子",
+					"difficulty": "0x85330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "風たちの声",
+					"subtitle": "天気の子",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "愛にできることはまだあるかい",
+					"subtitle": "天気の子",
+					"difficulty": "0x854220",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "崖の上のポニョ",
+					"subtitle": "",
+					"difficulty": "0x21210",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "人生のメリーゴーランド",
+					"subtitle": "「ハウルの動く城」より",
+					"difficulty": "0x74440",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "風になる",
+					"subtitle": "「猫の恩返し」より",
+					"difficulty": "0x63320",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "いつも何度でも",
+					"subtitle": "「千と千尋の神隠し」より",
+					"difficulty": "0x12120",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "海の見える街",
+					"subtitle": "「魔女の宅急便」より",
+					"difficulty": "0x64210",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "君をのせて",
+					"subtitle": "「天空の城ラピュタ」より",
+					"difficulty": "0x64320",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "風のとおり道",
+					"subtitle": "「となりのトトロ」より",
+					"difficulty": "0x74320",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "さんぽ",
+					"subtitle": "「となりのトトロ」より",
+					"difficulty": "0x954110",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "トライ・エヴリシング",
+					"subtitle": "「ズートピア」より",
+					"difficulty": "0x34320",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "どこまでも～How Far I’ll Go～",
+					"subtitle": "「モアナと伝説の海」より",
+					"difficulty": "0x65320",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "雪だるまつくろう",
+					"subtitle": "「アナと雪の女王」より",
+					"difficulty": "0x73110",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "Let It Go～ありのままで～",
+					"subtitle": "「アナと雪の女王」より",
+					"difficulty": "0x42220",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "Let It Go",
+					"subtitle": "「Frozen」より",
+					"difficulty": "0x42220",
+					"flags": "0",
+					"special_category": [4, 5]
+				}
+			]
+		},
+		{
+			"genre": 4,
+			"music_list": [
+				{
+					"title": "強風オールバック(feat.歌愛ユキ)",
+					"subtitle": "ゆこび",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ラグトレイン",
+					"subtitle": "稲葉曇 feat. 歌愛ユキ",
+					"difficulty": "0x75530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ロストアンブレラ",
+					"subtitle": "稲葉曇 feat. 歌愛ユキ",
+					"difficulty": "0xA87750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "メズマライザー",
+					"subtitle": "サツキ feat. 初音ミク・重音テト",
+					"difficulty": "0x974530",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "混沌ブギ",
+					"subtitle": "jon-YAKITORY feat. 初音ミク",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "アニマル",
+					"subtitle": "DECO*27 feat. 初音ミク",
+					"difficulty": "0x74430",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "シンデレラ",
+					"subtitle": "DECO*27 feat. 初音ミク",
+					"difficulty": "0x975430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ヴァンパイア",
+					"subtitle": "DECO*27 feat. 初音ミク",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "乙女解剖",
+					"subtitle": "DECO*27 feat. 初音ミク",
+					"difficulty": "0x864320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ヒバナ",
+					"subtitle": "DECO*27 feat. 初音ミク",
+					"difficulty": "0xA86540",
+					"flags": "0",
+					"special_category": [5, 7, 9]
+				},
+				{
+					"title": "ゴーストルール",
+					"subtitle": "DECO*27 feat. 初音ミク",
+					"difficulty": "0x987540",
+					"flags": "0",
+					"special_category": [5, 7]
+				},
+				{
+					"title": "神っぽいな",
+					"subtitle": "ピノキオピー feat. 初音ミク",
+					"difficulty": "0x75320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "4+1のそれぞれの未来",
+					"subtitle": "太鼓 de タイムトラベル00's / cosMo@暴走P feat. 初音ミク",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "初音ミクの消失-劇場版-",
+					"subtitle": "cosMo@暴走P feat. 初音ミク",
+					"difficulty": "0xA98750",
+					"flags": "0x4",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "ダーリンダンス",
+					"subtitle": "かいりきベア feat. 初音ミク",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "拝啓ドッペルゲンガー",
+					"subtitle": "kemu feat. 初音ミク",
+					"difficulty": "0xA7530",
+					"flags": "0",
+					"special_category": [5, 6, 9]
+				},
+				{
+					"title": "エイリアンエイリアン",
+					"subtitle": "ナユタン星人 feat. 初音ミク",
+					"difficulty": "0x96530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ダンスロボットダンス",
+					"subtitle": "ナユタン星人 feat. 初音ミク",
+					"difficulty": "0x94430",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "太陽系デスコ",
+					"subtitle": "ナユタン星人 feat. 初音ミク",
+					"difficulty": "0x85430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ドーナツホール",
+					"subtitle": "ハチ",
+					"difficulty": "0x87640",
+					"flags": "0",
+					"special_category": [5, 8]
+				},
+				{
+					"title": "ブリキノダンス",
+					"subtitle": "日向電工 feat. 初音ミク",
+					"difficulty": "0x97630",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "Tell Your World",
+					"subtitle": "原曲: livetune feat. 初音ミク",
+					"difficulty": "0x65230",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "千本桜",
+					"subtitle": "黒うさP feat. 初音ミク",
+					"difficulty": "0x876530",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "からくりピエロ",
+					"subtitle": "40mP feat. 初音ミク",
+					"difficulty": "0x87640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ブラック★ロックシューター",
+					"subtitle": "原曲: supercell feat. 初音ミク",
+					"difficulty": "0x86440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ワールドイズマイン",
+					"subtitle": "原曲: supercell feat. 初音ミク",
+					"difficulty": "0x86540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "メルト",
+					"subtitle": "原曲: supercell feat. 初音ミク",
+					"difficulty": "0x85330",
+					"flags": "0",
+					"special_category": [3, 5]
+				},
+				{
+					"title": "みくみくにしてあげる♪【してやんよ】",
+					"subtitle": "ika feat. 初音ミク",
+					"difficulty": "0x65510",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "ラヴィ",
+					"subtitle": "すりぃ feat. 鏡音レン",
+					"difficulty": "0x96420",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "もしもし神様",
+					"subtitle": "テヅカ feat. 鏡音リン・鏡音レン",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "ロストワンの号哭",
+					"subtitle": "Neru feat. 鏡音リン",
+					"difficulty": "0x87430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "いーあるふぁんくらぶ",
+					"subtitle": "みきとP",
+					"difficulty": "0x86430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "酔いどれ知らず",
+					"subtitle": "Kanaria",
+					"difficulty": "0x85330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "天ノ弱",
+					"subtitle": "164",
+					"difficulty": "0x86540",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
+					"title": "ドキドキ恋の予感！？",
+					"subtitle": "Noriyuki",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ハッピーシンセサイザ",
+					"subtitle": "EasyPop",
+					"difficulty": "0x75320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ルカルカ★ナイトフィーバー",
+					"subtitle": "samfree feat. 巡音ルカ",
+					"difficulty": "0x987630",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "アスノヨゾラ哨戒班",
+					"subtitle": "Orangestar feat. IA",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": [5, 6]
+				},
+				{
+					"title": "六兆年と一夜物語",
+					"subtitle": "kemu feat. IA",
+					"difficulty": "0x997530",
+					"flags": "0",
+					"special_category": [5, 6]
+				},
+				{
+					"title": "ロウワー",
+					"subtitle": "ぬゆり feat. flower",
+					"difficulty": "0x86420",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "グッバイ宣言",
+					"subtitle": "Chinozo feat. flower",
+					"difficulty": "0x986530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ベノム (feat. flower)",
+					"subtitle": "かいりきベア",
+					"difficulty": "0x86420",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "雨とペトラ",
+					"subtitle": "バルーン feat. flower",
+					"difficulty": "0x865430",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "エキセントリックw",
+					"subtitle": "銀河方面P feat. ZOLA PROJECT",
+					"difficulty": "0x86430",
+					"flags": "0",
+					"special_category": []
+				}
+			]
+		},
+		{
+			"genre": 5,
+			"music_list": [
+				{
+					"title": "ジャンボリミッキー！",
+					"subtitle": "",
+					"difficulty": "0x954320",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "ミッキーマウス・マーチ",
+					"subtitle": "",
+					"difficulty": "0x75540",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "Baby Shark (ベイビー・シャーク)",
+					"subtitle": "",
+					"difficulty": "0x43110",
+					"flags": "0",
+					"special_category": [4, 5]
+				},
+				{
+					"title": "インディ・ジョーンズのテーマ",
+					"subtitle": "",
+					"difficulty": "0x65430",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "Star Wars: Main Title",
+					"subtitle": "「スター・ウォーズ」より",
+					"difficulty": "0x86430",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "おはようメルちゃん",
+					"subtitle": "「おせわだいすきメルちゃん」のうた",
+					"difficulty": "0x943210",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "Get Boost?",
+					"subtitle": "「仮面ライダーガヴ」より",
+					"difficulty": "0x64320",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "CHEMY×STORY",
+					"subtitle": "「仮面ライダーガッチャード」より",
+					"difficulty": "0x43110",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "Trust・Last",
+					"subtitle": "「仮面ライダーギーツ」より",
+					"difficulty": "0x53210",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "liveDevil",
+					"subtitle": "「仮面ライダーリバイス」より",
+					"difficulty": "0x65320",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "ALMIGHTY～仮面の約束",
+					"subtitle": "「仮面ライダーセイバー」より",
+					"difficulty": "0x64110",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "REAL×EYEZ",
+					"subtitle": "「仮面ライダーゼロワン」より",
+					"difficulty": "0x43220",
+					"flags": "0",
+					"special_category": [4, 6]
+				},
+				{
+					"title": "Over \"Quartzer\"",
+					"subtitle": "「仮面ライダージオウ」より",
+					"difficulty": "0x72110",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "Be The One",
+					"subtitle": "「仮面ライダービルド」より",
+					"difficulty": "0x54210",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "EXCITE",
+					"subtitle": "「仮面ライダーエグゼイド」より",
+					"difficulty": "0x75320",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "我ら思う、故に我ら在り",
+					"subtitle": "「仮面ライダーゴースト」より",
+					"difficulty": "0x54430",
+					"flags": "0",
+					"special_category": [4, 6]
+				},
+				{
+					"title": "SURPRISE-DRIVE",
+					"subtitle": "「仮面ライダードライブ」より",
+					"difficulty": "0x76430",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "JUST LIVE MORE",
+					"subtitle": "「仮面ライダー鎧武」より",
+					"difficulty": "0x75320",
+					"flags": "0",
+					"special_category": [4, 6]
+				},
+				{
+					"title": "Life is SHOW TIME",
+					"subtitle": "「仮面ライダーウィザード」より",
+					"difficulty": "0x63220",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "SWITCH ON",
+					"subtitle": "「仮面ライダーフォーゼ」より",
+					"difficulty": "0x933110",
+					"flags": "0",
+					"special_category": [4, 6]
+				},
+				{
+					"title": "俺こそオンリーワン",
+					"subtitle": "「暴太郎戦隊ドンブラザーズ」より",
+					"difficulty": "0x63210",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "全力全開！ゼンカイジャー",
+					"subtitle": "「機界戦隊ゼンカイジャー」より",
+					"difficulty": "0x64220",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "魔進戦隊キラメイジャー",
+					"subtitle": "",
+					"difficulty": "0x54210",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "LUCKYSTAR",
+					"subtitle": "「宇宙戦隊キュウレンジャー」",
+					"difficulty": "0x65330",
+					"flags": "0",
+					"special_category": [4, 6]
+				},
+				{
+					"title": "動物戦隊ジュウオウジャー",
+					"subtitle": "",
+					"difficulty": "0x53220",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "さぁ行け！ニンニンジャー",
+					"subtitle": "「手裏剣戦隊ニンニンジャー」より",
+					"difficulty": "0x55220",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "列車戦隊トッキュウジャー",
+					"subtitle": "",
+					"difficulty": "0x54220",
+					"flags": "0",
+					"special_category": [4, 7]
+				},
+				{
+					"title": "VAMOLA! キョウリュウジャー",
+					"subtitle": "「獣電戦隊キョウリュウジャー」より",
+					"difficulty": "0x65320",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "バスターズ レディーゴー！",
+					"subtitle": "「特命戦隊ゴーバスターズ」より",
+					"difficulty": "0x33120",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "テーマ・オブ・半沢直樹 ～Main Title～",
+					"subtitle": "TBS系日曜劇場「半沢直樹」より",
+					"difficulty": "0x82210",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ドクターXのテーマ",
+					"subtitle": "ドラマ「ドクターX～外科医・大門未知子～」より",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "世界ふしぎ発見！オープニングテーマ",
+					"subtitle": "",
+					"difficulty": "0x74430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "「HERO」 -Main Title-",
+					"subtitle": "",
+					"difficulty": "0x86430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "情熱大陸",
+					"subtitle": "",
+					"difficulty": "0x76440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "吉宗評判記 暴れん坊将軍 BGM",
+					"subtitle": "",
+					"difficulty": "0x76330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Bad Apple!! feat.nomico",
+					"subtitle": "東方Projectアレンジ Alstroemeria Records",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "ウサテイ",
+					"subtitle": "東方Projectアレンジ あまね＋ビートまりお (COOL&CREATE)",
+					"difficulty": "0x97530",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "元祖！天才チルノちゃん☆",
+					"subtitle": "東方Projectアレンジ コバヤシユウヤ(IOSYS) feat. miko(Alternative ending)",
+					"difficulty": "0x96640",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "チルノのパーフェクトさんすう教室 ⑨周年バージョン",
+					"subtitle": "東方Projectアレンジ IOSYSと愉快な⑨周年フレンズ",
+					"difficulty": "0xA95430",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "スカーレット警察のゲットパトロール24時",
+					"subtitle": "東方Projectアレンジ 七条レタスグループ",
+					"difficulty": "0x985220",
+					"flags": "0x10",
+					"special_category": []
+				},
+				{
+					"title": "賽は投げられた",
+					"subtitle": "東方Projectアレンジ IOSYS",
+					"difficulty": "0x76640",
+					"flags": "0x10",
+					"special_category": []
+				},
+				{
+					"title": "チルノのパーフェクトさんすう教室",
+					"subtitle": "東方Projectアレンジ ARM+夕野ヨシミ(IOSYS) feat. miko",
+					"difficulty": "0xA87540",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "魔理沙は大変なものを盗んでいきました",
+					"subtitle": "東方Projectアレンジ ARM+夕野ヨシミ(IOSYS) feat. 藤咲かりん",
+					"difficulty": "0x96540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ネクロファンタジア ～ Arr.Demetori",
+					"subtitle": "東方Projectアレンジ Demetori",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "Grip & Break down !! -達人Edit.-",
+					"subtitle": "東方Projectアレンジ SOUND HOLIC feat. Nana Takahashi",
+					"difficulty": "0x976540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "good night baby (feat. Moe Shop)",
+					"subtitle": "犬吠埼紫否(CV:長谷川玲奈) 「電音部」より",
+					"difficulty": "0x75330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Crush (Prod. SHOW)",
+					"subtitle": "新新宿GR学園電音部 「電音部」より",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "爆裂タウマゼイン (Prod. チバニャン)",
+					"subtitle": "帝音国際学院電音部 「電音部」より",
+					"difficulty": "0x86630",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "IAM (feat. Shogo, Tsubasa)",
+					"subtitle": "港白金女学院電音部 「電音部」より",
+					"difficulty": "0x75530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "アキバ20XX",
+					"subtitle": "外神田文芸高校電音部 「電音部」より",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "やわらか戦車",
+					"subtitle": "",
+					"difficulty": "0x966530",
+					"flags": "0",
+					"special_category": []
+				}
+			]
+		},
+		{
+			"genre": 6,
+			"music_list": [
+				{
+					"title": "村祭り",
+					"subtitle": "",
+					"difficulty": "0x44310",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "クラシックメドレー (ロック編)",
+					"subtitle": "",
+					"difficulty": "0x88540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "パリのアメリカ人",
+					"subtitle": "ガーシュウィン",
+					"difficulty": "0x86430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ヘ調の協奏曲 第3楽章",
+					"subtitle": "ガーシュウィン",
+					"difficulty": "0x97540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ラプソディ・イン・ブルー",
+					"subtitle": "ガーシュウィン",
+					"difficulty": "0x86430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "チャーリー・ダッシュ！",
+					"subtitle": "",
+					"difficulty": "0xA8740",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "千鼓千鼓",
+					"subtitle": "",
+					"difficulty": "0x98640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "木星",
+					"subtitle": "",
+					"difficulty": "0x55550",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "火星",
+					"subtitle": "",
+					"difficulty": "0x76540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "クープランの墓",
+					"subtitle": "",
+					"difficulty": "0x88740",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "亡き王女のためのパヴァーヌ",
+					"subtitle": "～きみのこどう～",
+					"difficulty": "0x865530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "道化師の朝の歌",
+					"subtitle": "",
+					"difficulty": "0x87750",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "エンターテイナー",
+					"subtitle": "ジョップリン",
+					"difficulty": "0x87540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "クラポルポルスカ",
+					"subtitle": "",
+					"difficulty": "0xA7540",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "オー・ソレ・ミオ",
+					"subtitle": "",
+					"difficulty": "0x87330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "新世界より",
+					"subtitle": "ドヴォルザーク",
+					"difficulty": "0x76540",
+					"flags": "0x4",
+					"special_category": []
+				},
+				{
+					"title": "サーフサイド・サティ",
+					"subtitle": "",
+					"difficulty": "0x88750",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "熊蜂の飛行",
+					"subtitle": "リムスキー=コルサコフ",
+					"difficulty": "0x97430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "行進曲「くるみ割り人形」から",
+					"subtitle": "チャイコフスキー",
+					"difficulty": "0x76530",
+					"flags": "0x4",
+					"special_category": []
+				},
+				{
+					"title": "カルメン 組曲一番終曲",
+					"subtitle": "ビゼー",
+					"difficulty": "0xA75530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "美しく忙しきドナウ",
+					"subtitle": "",
+					"difficulty": "0xA86440",
+					"flags": "0",
+					"special_category": [7, 9]
+				},
+				{
+					"title": "ハンガリー舞曲第5曲",
+					"subtitle": "ブラームス",
+					"difficulty": "0x76550",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "天国と地獄 序曲",
+					"subtitle": "オッフェンバック",
+					"difficulty": "0x65440",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "ラデツキー行進曲",
+					"subtitle": "J. シュトラウス (1世)",
+					"difficulty": "0x77640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "「ルスランとリュドミラ」序曲",
+					"subtitle": "グリンカ",
+					"difficulty": "0x87530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "幻想即興曲",
+					"subtitle": "",
+					"difficulty": "0x98750",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "夜想曲Op.9-2",
+					"subtitle": "",
+					"difficulty": "0x87640",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "まおぅ",
+					"subtitle": "feat. 結羽 (プラムソニック)",
+					"difficulty": "0x87530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "第九交響曲",
+					"subtitle": "ベートーヴェン",
+					"difficulty": "0x63330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "交響曲第7番から",
+					"subtitle": "ベートーヴェン",
+					"difficulty": "0x76430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "トルコ行進曲",
+					"subtitle": "ベートーヴェン",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "其方、激昂",
+					"subtitle": "",
+					"difficulty": "0xA8650",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "鬼走曲第24番",
+					"subtitle": "",
+					"difficulty": "0xA8750",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "アイネクライネナハトムジーク",
+					"subtitle": "モーツァルト",
+					"difficulty": "0x76440",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "序曲「フィガロの結婚」",
+					"subtitle": "モーツァルト",
+					"difficulty": "0x75540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "交響曲第25番ト短調第一楽章",
+					"subtitle": "モーツァルト",
+					"difficulty": "0x76550",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "おもちゃのシンフォニー",
+					"subtitle": "",
+					"difficulty": "0x65430",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "もろびとこぞりて",
+					"subtitle": "",
+					"difficulty": "0x65310",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "メヌエット",
+					"subtitle": "",
+					"difficulty": "0x98740",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "トッカータとフーガとロック",
+					"subtitle": "",
+					"difficulty": "0x98750",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "カレ・カノ・カノン",
+					"subtitle": "",
+					"difficulty": "0x85430",
+					"flags": "0x4",
+					"special_category": []
+				}
+			]
+		},
+		{
+			"genre": 7,
+			"music_list": [
+				{
+					"title": "モエチャッカファイア",
+					"subtitle": "ゲーム『ゼンレスゾーンゼロ』エレン・ジョー 同一イメージソング",
+					"difficulty": "0x75430",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "GO ON YA WAY(feat. 超学生)",
+					"subtitle": "「グーニャモンスター」より",
+					"difficulty": "0x86520",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "夢と希望",
+					"subtitle": "「UNDERTALE」より",
+					"difficulty": "0x86530",
+					"flags": "0xF",
+					"special_category": [5]
+				},
+				{
+					"title": "心の痛み",
+					"subtitle": "「UNDERTALE」より",
+					"difficulty": "0x87540",
+					"flags": "0",
+					"special_category": [5]
+				},
+				{
+					"title": "たのしい太鼓道場",
+					"subtitle": "",
+					"difficulty": "0x787530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ナムコットメドレー",
+					"subtitle": "",
+					"difficulty": "0x86430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Back to Life",
+					"subtitle": "平原綾香 「テイルズ オブ ザ レイズ」より",
+					"difficulty": "0x64330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Blood Rage",
+					"subtitle": "「ゴッドイーター2レイジバースト」より",
+					"difficulty": "0x975530",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "Wings of Tomorrow(Tatsujin Mix)",
+					"subtitle": "「GOD EATER 2」より",
+					"difficulty": "0x96640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "キラメキラリ",
+					"subtitle": "「アイドルマスター」より",
+					"difficulty": "0x997630",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "GO MY WAY!!",
+					"subtitle": "「アイドルマスター」より",
+					"difficulty": "0x84330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "エージェント夜を住く",
+					"subtitle": "「アイドルマスター」より",
+					"difficulty": "0x75540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "THE IDOLM@STER",
+					"subtitle": "「アイドルマスター」より",
+					"difficulty": "0x884430",
+					"flags": "0x18",
+					"special_category": []
+				},
+				{
+					"title": "My Last Stand",
+					"subtitle": "「鉄拳8」より",
+					"difficulty": "0x96640",
+					"flags": "0",
+					"special_category": [5, 6]
+				},
+				{
+					"title": "Highschool love!",
+					"subtitle": "「鉄拳タッグトーナメント2 Wii U EDITION」より",
+					"difficulty": "0x76430",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "KARMA(Tatsujin Mix)",
+					"subtitle": "「鉄拳6 BLOODLINE REBELLION」より",
+					"difficulty": "0x97640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "AWAKE!! ～マッスル目覚めのテーマ～",
+					"subtitle": "feat. 蟹プリンス 「マッスル行進曲」より",
+					"difficulty": "0xA74430",
+					"flags": "0",
+					"special_category": [6, 9]
+				},
+				{
+					"title": "Diver",
+					"subtitle": "「トレジャーガウスト ガウストダイバー」より",
+					"difficulty": "0x96530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "オリジナルミライ",
+					"subtitle": "feat. マモル(nhhmbase) 「右脳の達人 爽解！まちがいミュージアム」より",
+					"difficulty": "0x85330",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "RUN PAC-MAN RUN",
+					"subtitle": "「リッジレーサー6」より",
+					"difficulty": "0xA6540",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "Crush 'em All",
+					"subtitle": "「クリティカルベロシティ」より",
+					"difficulty": "0xA7750",
+					"flags": "0",
+					"special_category": [9]
+				},
+				{
+					"title": "THE FIXER",
+					"subtitle": "「クリティカルベロシティ」より",
+					"difficulty": "0xA7740",
+					"flags": "0",
+					"special_category": [8, 9]
+				},
+				{
+					"title": "Brave Sword, Braver Soul",
+					"subtitle": "「ソウルキャリバーII」より",
+					"difficulty": "0x775530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "もじびったんメドレー",
+					"subtitle": "「ことばのパズル もじびったん」より",
+					"difficulty": "0x73440",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "テクノヴェルクメドレー",
+					"subtitle": "",
+					"difficulty": "0x96540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "TD - 28619029byte remix -",
+					"subtitle": "「テクノドライブ」より",
+					"difficulty": "0x98750",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "Night And Day",
+					"subtitle": "「ACE COMBAT 2」より",
+					"difficulty": "0x98640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "BLUE TOPAZ",
+					"subtitle": "「レイプレーサー」より",
+					"difficulty": "0x87540",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "DESERT STORM",
+					"subtitle": "「F/A」より",
+					"difficulty": "0x86540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "名乗り (天上)",
+					"subtitle": "「未来忍者」より",
+					"difficulty": "0x86530",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ドラゴンスピリットメドレー",
+					"subtitle": "",
+					"difficulty": "0x78640",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "妖怪道中記音頭",
+					"subtitle": "",
+					"difficulty": "0x963440",
+					"flags": "0x8",
+					"special_category": []
+				},
+				{
+					"title": "KAGEKIYO",
+					"subtitle": "源平討魔伝メドレー",
+					"difficulty": "0xA87540",
+					"flags": "0x10",
+					"special_category": []
+				},
+				{
+					"title": "ドルアーガの塔メドレー",
+					"subtitle": "",
+					"difficulty": "0x87540",
+					"flags": "0",
+					"special_category": [6]
+				},
+				{
+					"title": "マッピーメドレー",
+					"subtitle": "",
+					"difficulty": "0x87650",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "マッピー音頭",
+					"subtitle": "",
+					"difficulty": "0x75320",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "ゼビウス体操",
+					"subtitle": "",
+					"difficulty": "0x976540",
+					"flags": "0",
+					"special_category": []
+				},
+				{
+					"title": "We are PAC-MAN!",
+					"subtitle": "PAC-MAC Official Theme Song",
+					"difficulty": "0x76530",
+					"flags": "0",
+					"special_category": [5]
+				}
+			]
+		}
+	],
+	"pre_installed_list":[
+	]
+}

@@ -15,6 +15,7 @@ namespace Bad100Challenge
 		class ResultItemBase {
 			public int index { get; set; } = 0;
 			public string tilte { get; set; } = "";
+			public string difficulty { get; set; } = "";
 			public int left { get; set; } = 0;
 			public int left_diff { get; set; } = 0;
 
@@ -28,11 +29,16 @@ namespace Bad100Challenge
 
 		List<ResultItemBase> _results = new();
 
-		public void AddResult(string title, int left, int fc) {
+		public void InitResult() {
+			_results.Clear();
+		}
+
+		public void AddResult(string title, string difficulty, int left, int fc) {
 
 			ResultItemBase item = new() {
 				index = _results.Count,
 				tilte = title,
+				difficulty = difficulty,
 				left = left,
 				fc = fc,
 			};
