@@ -2,6 +2,8 @@
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.Json;
+using System.Text.Json.Nodes;
 
 namespace Bad100Challenge
 {
@@ -21,7 +23,7 @@ namespace Bad100Challenge
 		bool isFixed = false;
 		bool ChallengeCompleted = false;
 		string RollStartButtonText = "Roll Start";
-		List<string> Songs = new();
+		MusicList MusicList = new();
 		Queue<int> DuplicateIndexQueue = new();
 
 		Display display = new();
@@ -38,7 +40,7 @@ namespace Bad100Challenge
 
 		private void ResetButton_Click(object sender, EventArgs e) {
 			display.Hide();
-			isFixed = true;
+			isFixed = false;
 			FixRequiredBox.Enabled = true;
 		}
 
@@ -55,18 +57,51 @@ namespace Bad100Challenge
 
 			return true;
 		}
+		private void MinDifficulty_Scroll(object sender, EventArgs e) {
+			if (MinDifficultytrackbar.Value > MaxDifficultytrackbar.Value) {
+				MaxDifficultytrackbar.Value = MinDifficultytrackbar.Value;
+			}
+
+			MinDifficultyDisplay.Text = MinDifficultytrackbar.Value.ToString();
+			MaxDifficultyDisplay.Text = MaxDifficultytrackbar.Value.ToString();
+
+			FilterUpdate();
+		}
+
+		private void MaxDifficulty_Scroll(object sender, EventArgs e) {
+			if (MaxDifficultytrackbar.Value < MinDifficultytrackbar.Value) {
+				MinDifficultytrackbar.Value = MaxDifficultytrackbar.Value;
+			}
+
+			MinDifficultyDisplay.Text = MinDifficultytrackbar.Value.ToString();
+			MaxDifficultyDisplay.Text = MaxDifficultytrackbar.Value.ToString();
+
+			FilterUpdate();
+		}
+
+		private void GenreFilterFlags_SelectedIndexChanged(object sender, EventArgs e) {
+			FilterUpdate();
+		}
+
+		private void DifficultyFilterFlags_SelectedIndexChanged(object sender, EventArgs e) {
+			FilterUpdate();
+		}
 
 		private void FixButtonEnter(object sender, EventArgs e) {
 			FixRequiredBox.Enabled = false;
 
 			isFixed = true;
 
-			if (SongIgnoreCountInput.Value >= Songs.Count) {
-				SongIgnoreCountInput.Value = (int)(Songs.Count * 0.8);
+			SongIgnoreCountInput.Maximum = (int)(MusicList.ChartDatas.Count * 0.9);
+			if (SongIgnoreCountInput.Value >= MusicList.ChartDatas.Count) {
+				SongIgnoreCountInput.Value = (int)(MusicList.ChartDatas.Count * 0.3);
 			}
 
+			CalculateBox.Enabled = false;
+			RollStartButton.Enabled = true;
+
 			display.Show();
-			display.BadCountLessZero = (sender, e) => { ChallengeCompleted = true; ResetButton.Enabled = ChallengeCompleted; };
+			display.BadCountLessZero = (sender, e) => { ChallengeCompleted = true; display.ResultDisplay(); };
 			display.FormClosed += (sender, e) => { Close(); };
 			display.Init((int)InitialCountInput.Value);
 
@@ -81,22 +116,11 @@ namespace Bad100Challenge
 			RollStartButton.Text = RollStartButtonText;
 		}
 
-		private void InputSongList(object sender, EventArgs e) {
-			Songs = SongListInput.Lines.ToList();
-			SongCountDisplay.Text = Songs.Count.ToString();
-			if (Songs.Count > 0) {
-				FixButton.Enabled = true;
-			}
-			else {
-				FixButton.Enabled = false;
-			}
-		}
-
 		private void CalculateButton_Click(object sender, EventArgs e) {
 			display.Calculate((int)BadCountInput.Value);
 			BadCountInput.Value = 0;
-			if (Songs.Count == 1) {
-				ChallengeCompleted = true;
+			if (MusicList.ChartDatas.Count == 0) {
+				display.BadCountLessZero?.Invoke(this, EventArgs.Empty);
 			}
 			CalculateBox.Enabled = false;
 			RollStartButton.Enabled = true;
@@ -121,14 +145,13 @@ namespace Bad100Challenge
 			int idx = 0;
 
 			do {
-				idx = GetRandomNum(Songs.Count);
+				idx = GetRandomNum(MusicList.ChartDatas.Count);
 			} while (DuplicateIndexQueue.Any((i) => { return idx == i; }));
 
 			if (DuplicateIndexQueue.Count >= SongIgnoreCountInput.Value) {
 				DuplicateIndexQueue.Dequeue();
 			}
-			DuplicateIndexQueue.Enqueue(idx);
-
+			
 			Stopwatch timer = new();
 			timer.Start();
 
@@ -138,8 +161,14 @@ namespace Bad100Challenge
 			display.Focus();
 
 			while (countupdate[0] < updatecount) {
-				int rn = GetRandomNum(Songs.Count);
-				display.SetTitle(Songs[rn]);
+				var rs = MusicList.ChartDatas[GetRandomNum(MusicList.ChartDatas.Count)];
+				display.SetDisplay(
+					rs.Title,
+					rs.Subtitle,
+					rs.Genre,
+					rs.Difficulty,
+					rs.Level
+					);
 				display.Update();
 				this.Update();
 				while (countupdate[0] == countupdate[1]) { countupdate[0] = (int)(timer.Elapsed.TotalMilliseconds / (double)UpdateTimeInput.Value); }
@@ -151,9 +180,19 @@ namespace Bad100Challenge
 			BadCountInput.Enabled = true;
 			SongListInput.ReadOnly = false;
 
-			display.SetTitle(Songs[idx]);
+			var song = MusicList.ChartDatas[idx];
+			display.SetDisplay(
+					song.Title,
+					song.Subtitle,
+					song.Genre,
+					song.Difficulty,
+					song.Level
+					);
 			if (MarathonModeFlag.Checked) {
-				Songs.RemoveAt(idx);
+				MusicList.ChartDatas.RemoveAt(idx);
+			}
+			else {
+				DuplicateIndexQueue.Enqueue(idx);
 			}
 			display.Update();
 
@@ -161,25 +200,55 @@ namespace Bad100Challenge
 			CalculateBox.Enabled = true;
 		}
 
-		void SongListInput_Update(string[] pathes) {
-			List<string> ret = new();
-
-			foreach (var p in pathes) {
-				List<string> temp = new();
-				using (StreamReader sr = new(p, Encoding.UTF8)) {
-					while (!sr.EndOfStream) {
-						string line = sr.ReadLine();
-						if (line == string.Empty) {
-							continue;
-						}
-						temp.Add(line);
-					}
+		void FilterUpdate() {
+			MusicList.Filter(
+				new MusicList.Predicate {
+					Levels = new(MinDifficultytrackbar.Value, MaxDifficultytrackbar.Value),
+					Genre = [.. GenreFilterFlags.CheckedItems.Cast<GenreData>().Select(x => x.ID)],
+					Difficulty = [.. DifficultyFilterFlags.CheckedItems.Cast<DifficultyData>()]
 				}
-				ret.AddRange(temp);
+				);
+			SongCountDisplay.Text = MusicList.ChartDatas.Count.ToString();
+		}
+
+		private void LoadButton_Click(object sender, EventArgs e) {
+			SongListInput_Update(SongListInput.Text);
+
+			SongCountDisplay.Text = MusicList.ChartDatas.Count.ToString();
+
+			GenreFilterFlags.Items.Clear();
+			GenreFilterFlags.Items.AddRange(MusicList.GenreDatas);
+			for (int i = 0; i < GenreFilterFlags.Items.Count; i++) {
+				GenreFilterFlags.SetItemChecked(i, true);
 			}
 
-			SongListInput.Lines = ret.ToArray();
-			SongListInput.Focus();
+			DifficultyFilterFlags.Items.Clear();
+			DifficultyFilterFlags.Items.AddRange(MusicList.DifficultyDatas);
+			for (int i = 0; i < DifficultyFilterFlags.Items.Count; i++) {
+				DifficultyFilterFlags.SetItemChecked(i, true);
+			}
+
+			if (MusicList.ChartDatas.Count > 0) {
+				FixButton.Enabled = true;
+			}
+			else {
+				FixButton.Enabled = false;
+			}
+		}
+
+		void SongListInput_Update(string path) {
+			if (!File.Exists(path)) { return; }
+			
+			try {
+				using (StreamReader sr = new(path, Encoding.UTF8)) {
+					MusicList.Parse(JsonSerializer.Deserialize<JsonNode>(sr.ReadToEnd()));
+				}
+			}
+			catch (Exception e) {
+				MessageBox.Show("invalid format.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+			
+			MusicList.Filter(MusicList.DefaultPredicate);
 		}
 
 		private void SongListInput_DragDrop(object sender, DragEventArgs e) {
@@ -190,7 +259,7 @@ namespace Bad100Challenge
 
 			if (path is null) { return; }
 
-			SongListInput_Update(path);
+			SongListInput_Update(path[0]);
 		}
 
 		private void SongListInput_DragEnter(object sender, DragEventArgs e) {
@@ -201,24 +270,22 @@ namespace Bad100Challenge
 			else {
 				e.Effect = DragDropEffects.None;
 			}
-
 		}
 
 		private void ImportButton_Click(object sender, EventArgs e) {
 
 			OpenFileDialog dialog = new() {
-				Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*",
+				Filter = "json files (*.json)|*.json|All files (*.*)|*.*",
 				FilterIndex = 1,
 				RestoreDirectory = true,
 				CheckFileExists = true,
 				CheckPathExists = true,
-				Multiselect = true,
 				FileName = Environment.CurrentDirectory,
 			};
 			DialogResult result = dialog.ShowDialog();
 
 			if (result == DialogResult.OK) {
-				SongListInput_Update(dialog.FileNames);
+				SongListInput_Update(dialog.FileName);
 			}
 		}
 
