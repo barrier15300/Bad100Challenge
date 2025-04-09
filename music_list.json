@@ -1,6 +1,6 @@
 ﻿{
 	"update_info": {
-		"date": "2025/03/03"
+		"date": "2025/03/04"
 	},
 	"difficulty_def": [
 		{
@@ -615,7 +615,7 @@
 					"special_category": [8, 9]
 				},
 				{
-					"title": "増悪と醜悪の花束",
+					"title": "憎悪と醜悪の花束",
 					"subtitle": "t+pazolite",
 					"difficulty": "0xAA8750",
 					"flags": "0x40",
@@ -706,7 +706,7 @@
 					"special_category": []
 				},
 				{
-					"title": "142 トキワタリドリ",
+					"title": "142トキワタリドリ",
 					"subtitle": "",
 					"difficulty": "0x87650",
 					"flags": "0x40",
@@ -2673,7 +2673,7 @@
 					"special_category": [9]
 				},
 				{
-					"title": "晴天の黎明",
+					"title": "青天の黎明",
 					"subtitle": "steμ(BNSI) feat. siroa",
 					"difficulty": "0xA7630",
 					"flags": "0x40",
