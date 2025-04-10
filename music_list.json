@@ -1,6 +1,6 @@
-﻿{
+{
 	"update_info": {
-		"date": "2025/03/04"
+		"date": "2025/04/09"
 	},
 	"difficulty_def": [
 		{
@@ -447,6 +447,13 @@
 					"special_category": [5]
 				},
 				{
+					"title": "ハイテンション☆暗記SHOW!",
+					"subtitle": "ヒゲドライバー feat. きつね(ChumuNote),おかめ(寺島惇太),ひょっとこ(住谷哲栄) / WADIVE RECORD",
+					"difficulty": "0x97540",
+					"flags": "0x40",
+					"special_category": [2 , 6]
+				},
+				{
 					"title": "全力Dive",
 					"subtitle": "Carpainter feat. ななひら / WADIVE RECORD",
 					"difficulty": "0x75530",
@@ -601,6 +608,13 @@
 					"special_category": []
 				},
 				{
+					"title": "アンリミテッドゲームズ",
+					"subtitle": "Ponchi♪ feat. はぁち",
+					"difficulty": "0xAA775",
+					"flags": "0",
+					"special_category": [8]
+				},
+				{
 					"title": "燃えよサファイア",
 					"subtitle": "庭師",
 					"difficulty": "0x97640",
@@ -648,6 +662,13 @@
 					"difficulty": "0x86540",
 					"flags": "0x40",
 					"special_category": []
+				},
+				{
+					"title": "スリケンランナー",
+					"subtitle": "Ninja Never DieS!",
+					"difficulty": "0x97740",
+					"flags": "0",
+					"special_category": [6]
 				},
 				{
 					"title": "Illusion Flare",
@@ -1401,7 +1422,7 @@
 				{
 					"title": "Day by Day!",
 					"subtitle": "",
-					"difficulty": "0x87530",
+					"difficulty": "0x987530",
 					"flags": "0x40",
 					"special_category": []
 				},
@@ -2211,6 +2232,13 @@
 					"special_category": []
 				},
 				{
+					"title": "宇宙SAMURAI",
+					"subtitle": "",
+					"difficulty": "0x87630",
+					"flags": "0x100",
+					"special_category": []
+				},
+				{
 					"title": "ヌムジカac.10",
 					"subtitle": "",
 					"difficulty": "0x98430",
@@ -2832,6 +2860,13 @@
 					"special_category": [5]
 				},
 				{
+					"title": "Bunny Girl",
+					"subtitle": "",
+					"difficulty": "0x75430",
+					"flags": "0x40",
+					"special_category": []
+				},
+				{
 					"title": "誓いの花束を～With You～",
 					"subtitle": "すとぷり",
 					"difficulty": "0x64320",
@@ -2851,6 +2886,20 @@
 					"difficulty": "0x65330",
 					"flags": "0",
 					"special_category": [6]
+				},
+				{
+					"title": "ルマ",
+					"subtitle": "莉犬 / すとぷり",
+					"difficulty": "0x74210",
+					"flags": "0x40",
+					"special_category": []
+				},
+				{
+					"title": "Strawberry Prince Forever",
+					"subtitle": "すとぷり",
+					"difficulty": "0x75320",
+					"flags": "0x40",
+					"special_category": []
 				},
 				{
 					"title": "はいよろこんで",
@@ -3399,11 +3448,11 @@
 					"special_category": [4]
 				},
 				{
-					"title": "デジタルモグラ",
+					"title": "今、咲き誇る花たちよ",
 					"subtitle": "",
-					"difficulty": "0x74320",
+					"difficulty": "0x66540",
 					"flags": "0",
-					"special_category": []
+					"special_category": [6]
 				},
 				{
 					"title": "ラブソングはとまらないよ",
@@ -3684,6 +3733,20 @@
 			"genre": 3,
 			"music_list": [
 				{
+					"title": "Same Blue",
+					"subtitle": "",
+					"difficulty": "0x75420",
+					"flags": "0x40",
+					"special_category": []
+				},
+				{
+					"title": "オトノケ",
+					"subtitle": "TVアニメ「ダンダダン」より",
+					"difficulty": "0x86420",
+					"flags": "0x100",
+					"special_category": [5]
+				},
+				{
 					"title": "許婚っきゅん",
 					"subtitle": "「らんま1/2」より",
 					"difficulty": "0x75330",
@@ -3950,24 +4013,10 @@
 					"special_category": [7]
 				},
 				{
-					"title": "セルリアン",
-					"subtitle": "「ガンダムビルドファイターズトライ」より",
-					"difficulty": "0x75540",
-					"flags": "0",
-					"special_category": [6]
-				},
-				{
 					"title": "BLAZING",
 					"subtitle": "「Gのレコンギスタ」より",
 					"difficulty": "0x76640",
 					"flags": "0",
-					"special_category": []
-				},
-				{
-					"title": "哀戦士",
-					"subtitle": "劇場版「機動戦士ガンダムII 哀 戦士編」より",
-					"difficulty": "0x86540",
-					"flags": "0x8",
 					"special_category": []
 				},
 				{
@@ -4370,13 +4419,6 @@
 					"special_category": [6]
 				},
 				{
-					"title": "LET'S GO OUT",
-					"subtitle": "「銀魂'」より",
-					"difficulty": "0x64330",
-					"flags": "0",
-					"special_category": []
-				},
-				{
 					"title": "桃源郷エイリアン",
 					"subtitle": "「銀魂'」より",
 					"difficulty": "0x65430",
@@ -4550,13 +4592,6 @@
 					"difficulty": "0x974430",
 					"flags": "0",
 					"special_category": [5]
-				},
-				{
-					"title": "ドラマチック",
-					"subtitle": "「ハチミツとクローバー」より",
-					"difficulty": "0x86440",
-					"flags": "0x8",
-					"special_category": []
 				},
 				{
 					"title": "月光花",
@@ -5129,6 +5164,27 @@
 					"special_category": [4]
 				},
 				{
+					"title": "Fun!Fun!Fun! ～夢∞～",
+					"subtitle": "「ビッ友×戦士 キラメキパワーズ！」より",
+					"difficulty": "0x65320",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "チュワパネ！",
+					"subtitle": "「ひみつ×戦士 ファントミラージュ！」より",
+					"difficulty": "0x53110",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
+					"title": "ミルミル ～未来ミエル～",
+					"subtitle": "「魔法×戦士 マジマジョピュアーズ！」より",
+					"difficulty": "0x54210",
+					"flags": "0",
+					"special_category": [4]
+				},
+				{
 					"title": "Get Boost?",
 					"subtitle": "「仮面ライダーガヴ」より",
 					"difficulty": "0x64320",
@@ -5402,6 +5458,13 @@
 					"special_category": []
 				},
 				{
+					"title": "GAME CHANGER",
+					"subtitle": "アクア☆マジック 「島根スサノオマジック」応援ソング",
+					"difficulty": "0x74430",
+					"flags": "0",
+					"special_category": [7]
+				},
+				{
 					"title": "good night baby (feat. Moe Shop)",
 					"subtitle": "犬吠埼紫否(CV:長谷川玲奈) 「電音部」より",
 					"difficulty": "0x75330",
@@ -5435,6 +5498,20 @@
 					"difficulty": "0xA8750",
 					"flags": "0",
 					"special_category": [7, 9]
+				},
+				{
+					"title": "月と王子[Tatsunoshin Remix]",
+					"subtitle": "瀬戸海月(CV:シスター・クレア) / 電音部 × 塊魂",
+					"difficulty": "0x97640",
+					"flags": "0x200",
+					"special_category": []
+				},
+				{
+					"title": "LONELY ROLLING STAR[picco Remix]",
+					"subtitle": "犬吠埼紫杏(CV:長谷川玲奈) / 電音部 × 塊魂",
+					"difficulty": "0x95430",
+					"flags": "0x200",
+					"special_category": []
 				},
 				{
 					"title": "やわらか戦車",
