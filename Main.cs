@@ -40,6 +40,7 @@ namespace Bad100Challenge
 
 		private void ResetButton_Click(object sender, EventArgs e) {
 			display.Hide();
+			ChallengeCompleted = false;
 			isFixed = false;
 			FixRequiredBox.Enabled = true;
 		}
@@ -239,13 +240,15 @@ namespace Bad100Challenge
 		void SongListInput_Update(string path) {
 			if (!File.Exists(path)) { return; }
 			
+			MusicList = new();
+
 			try {
 				using (StreamReader sr = new(path, Encoding.UTF8)) {
 					MusicList.Parse(JsonSerializer.Deserialize<JsonNode>(sr.ReadToEnd()));
 				}
 			}
 			catch (Exception e) {
-				MessageBox.Show("invalid format.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				MessageBox.Show(e.Source + "\n\n" + e.Message + "\n\n" + e.StackTrace, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 			
 			MusicList.Filter(MusicList.DefaultPredicate);

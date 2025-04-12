@@ -44,10 +44,10 @@ namespace Bad100Challenge
 					if (this.IsDisposed || stopThreadFlag) {
 						break;
 					}
-					this.Invoke(new Action(() => {
+					this.Invoke(() => {
 						TimeSpan span = sw.Elapsed;
 						TimeDisplay.Text = span.ToString(@"hh\:mm\:ss\.ff");
-					}));
+					});
 					Thread.Sleep(50);
 				}
 			});
@@ -67,6 +67,8 @@ namespace Bad100Challenge
 
 			if (BadCount <= 0) {
 				BadCountLessZero?.Invoke(this, EventArgs.Empty);
+				stopThreadFlag = true;
+				timeUpdateThread.Wait();
 			}
 		}
 
