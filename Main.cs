@@ -27,7 +27,6 @@ namespace Bad100Challenge
 		Queue<int> DuplicateIndexQueue = new();
 
 		Display display = new();
-
 		static int GetRandomNum(int max) {
 			int ret = 0;
 			int shift = (int)Math.Log2(max) + 1;
@@ -43,6 +42,8 @@ namespace Bad100Challenge
 			ChallengeCompleted = false;
 			isFixed = false;
 			FixRequiredBox.Enabled = true;
+			CalculateBox.Enabled = false;
+			RollStartButton.Enabled = true;
 		}
 
 		bool ConditionCheck() {

@@ -39,10 +39,9 @@ namespace Bad100Challenge
 				stopThreadFlag = false;
 				Stopwatch sw = new();
 				sw.Start();
-				int[] updatecounter = new int[2];
 				while (true) {
 					if (this.IsDisposed || stopThreadFlag) {
-						break;
+						return;
 					}
 					this.Invoke(() => {
 						TimeSpan span = sw.Elapsed;
@@ -51,6 +50,12 @@ namespace Bad100Challenge
 					Thread.Sleep(50);
 				}
 			});
+		}
+
+		void StopTimeThread() {
+			stopThreadFlag = true;
+			while (!timeUpdateThread.IsCompleted) { Update(); }
+			timeUpdateThread.Wait();
 		}
 
 		public void Calculate(int badcount) {
@@ -67,8 +72,7 @@ namespace Bad100Challenge
 
 			if (BadCount <= 0) {
 				BadCountLessZero?.Invoke(this, EventArgs.Empty);
-				stopThreadFlag = true;
-				timeUpdateThread.Wait();
+				StopTimeThread();
 			}
 		}
 
@@ -96,8 +100,7 @@ namespace Bad100Challenge
 
 		private void Display_VisibleChanged(object sender, EventArgs e) {
 			if (!Visible) {
-				stopThreadFlag = true;
-				timeUpdateThread.Wait();
+				StopTimeThread();
 				result.Hide();
 				result.InitResult();
 			}
