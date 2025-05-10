@@ -33,29 +33,31 @@ namespace Bad100Challenge
 
 		public void Init(int initialcount) {
 			BadCount = initialcount;
+			ClearCount = 0;
+			FullComboCount = 0;
+			result.InitResult();
 			SetDisplay("", "", "", "", 0);
 			SetValue(BadCount, 0, 0);
+
 			timeUpdateThread = Task.Factory.StartNew(() => {
 				stopThreadFlag = false;
 				Stopwatch sw = new();
 				sw.Start();
-				while (true) {
-					if (this.IsDisposed || stopThreadFlag) {
-						return;
-					}
+				while (!(this.IsDisposed || stopThreadFlag)) {
 					this.Invoke(() => {
 						TimeSpan span = sw.Elapsed;
 						TimeDisplay.Text = span.ToString(@"hh\:mm\:ss\.ff");
 					});
 					Thread.Sleep(50);
 				}
+				return;
 			});
 		}
 
-		void StopTimeThread() {
+		async Task StopTimeThread() {
 			stopThreadFlag = true;
-			while (!timeUpdateThread.IsCompleted) { Update(); }
-			timeUpdateThread.Wait();
+			var token = new CancellationToken(true);
+			await timeUpdateThread.WaitAsync(token);
 		}
 
 		public void Calculate(int badcount) {
@@ -79,7 +81,6 @@ namespace Bad100Challenge
 		public void ResultDisplay() {
 			this.Activate();
 			result.Show();
-			result.FormClosed += (sender, e) => { this.Close(); };
 			result.Activate();
 		}
 
@@ -93,16 +94,50 @@ namespace Bad100Challenge
 		}
 
 		public void SetDisplay(string title, string subtitle, string genre, string difficulty, int level) {
+			static int GetSimpleDisplayWidth(char c) {
+			// ASCII
+				if (c <= 0x007F)
+					return 1;
+
+				// 半角カナ
+				if (c >= 0xFF61 && c <= 0xFF9F)
+					return 1;
+
+				// 全角記号・カナ・漢字（だいたいの範囲）
+				if ((c >= 0x1100 && c <= 0x11FF) ||  // Hangul Jamo
+					(c >= 0x2E80 && c <= 0xA4CF) ||  // CJK radicals, Hanzi, Kana
+					(c >= 0xAC00 && c <= 0xD7AF) ||  // Hangul Syllables
+					(c >= 0xF900 && c <= 0xFAFF) ||  // CJK Compatibility Ideographs
+					(c >= 0xFE10 && c <= 0xFE6F) ||  // Vertical forms, etc.
+					(c >= 0xFF01 && c <= 0xFF60) ||  // Fullwidth ASCII variants
+					(c >= 0xFFE0 && c <= 0xFFE6))    // Fullwidth symbols
+				{
+					return 2;
+				}
+
+				return 1;
+			}
+			static int GetMultiLength(string s) {
+				int ret = 0;
+				foreach (char c in s) {
+					ret += GetSimpleDisplayWidth(c);
+				}
+				return ret;
+			}
+
 			SongTitle.Text = title;
 			SongSubTitle.Text = subtitle;
-			SongDifficulty.Text = $"{genre} / {difficulty} / {level} star";
+
+			var diff_len = GetMultiLength(difficulty) - difficulty.Length;
+
+			string format = string.Format("{{0,2}}★ / {{1,-{0}}} / {{2}}", 10 - diff_len);
+			SongDifficulty.Text = string.Format(format, level, difficulty, genre);
 		}
 
 		private void Display_VisibleChanged(object sender, EventArgs e) {
 			if (!Visible) {
 				StopTimeThread();
 				result.Hide();
-				result.InitResult();
 			}
 		}
 

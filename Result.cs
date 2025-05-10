@@ -56,6 +56,7 @@ namespace Bad100Challenge
 		}
 
 		private void Result_Activated(object sender, EventArgs e) {
+			dataGridView1.DataSource = new DataGridView();
 			dataGridView1.DataSource = _results;
 		}
 
